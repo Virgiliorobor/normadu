@@ -35,11 +35,11 @@
     },
     {
      "ord": "RGCE",
-     "art": "1"
+     "art": "anexo-1"
     },
     {
      "ord": "RGCE",
-     "art": "2"
+     "art": "anexo-2"
     }
    ]
   },
@@ -89,7 +89,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "5"
+     "art": "anexo-5"
     }
    ]
   },
@@ -234,11 +234,11 @@
      "art": "185"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "2-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "25"
     },
     {
@@ -412,7 +412,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "13"
+     "art": "anexo-13"
     }
    ]
   },
@@ -563,8 +563,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -638,11 +638,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "1"
-    },
-    {
-     "ord": "RMF",
-     "art": "1"
+     "art": "anexo-1"
     }
    ]
   },
@@ -687,7 +683,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "2"
+     "art": "anexo-2"
     }
    ]
   },
@@ -907,7 +903,7 @@
    "correlaciones": "Ley del ISR 7, CFF 34, RGCE 1.2.2., Anexo 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "7"
     },
     {
@@ -1054,8 +1050,9 @@
      "art": "121"
     },
     {
-     "ord": "LA",
-     "art": "22"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley General de Organizaciones y Actividades Auxiliares del Crédito 22"
     },
     {
      "ord": "RLA",
@@ -1278,6 +1275,16 @@
     {
      "ord": "EXT",
      "art": "",
+     "nombre": "Ley de Hidrocarburos"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley del Sector Hidrocarburos"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
      "nombre": "Decreto de vehículos usados 9"
     },
     {
@@ -1377,8 +1384,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "11"
+     "ord": "RGCE",
+     "art": "anexo-11"
     }
    ]
   },
@@ -1533,12 +1540,13 @@
      "art": "144"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "19"
     },
     {
-     "ord": "LA",
-     "art": "31"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley Federal para la Administración y Enajenación de Bienes del Sector Público 31"
     },
     {
      "ord": "RLA",
@@ -1725,7 +1733,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "10"
+     "art": "anexo-10"
     }
    ]
   },
@@ -1810,8 +1818,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -1851,8 +1859,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -2026,11 +2034,11 @@
      "art": "36-A"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "27"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "28"
     },
     {
@@ -2182,7 +2190,7 @@
      "art": "167"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "2"
     },
     {
@@ -2718,8 +2726,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -2784,7 +2792,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -2914,11 +2922,11 @@
      "art": "110"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "34"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "35"
     },
     {
@@ -3013,7 +3021,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -3272,9 +3280,17 @@
      "nombre": "Resolución de la Decisión 2.2.3"
     },
     {
+     "ord": "RGCE",
+     "art": "anexo-III"
+    },
+    {
      "ord": "EXT",
      "art": "",
      "nombre": "Resolución del TLCAELC 2.2.3"
+    },
+    {
+     "ord": "RGCE",
+     "art": "anexo-I"
     },
     {
      "ord": "EXT",
@@ -3834,10 +3850,6 @@
     {
      "ord": "RGCE",
      "art": "anexo-22"
-    },
-    {
-     "ord": "RMF",
-     "art": "1"
     }
    ]
   },
@@ -3988,16 +4000,16 @@
      "art": "49"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "1"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "14"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -4050,31 +4062,31 @@
      "art": "64"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "27"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "14"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "16"
     }
    ]
@@ -4518,8 +4530,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -4839,8 +4851,9 @@
      "art": "185"
     },
     {
-     "ord": "LA",
-     "art": "45"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Navegación y Comercio Marítimos 45"
     },
     {
      "ord": "RLA",
@@ -5140,8 +5153,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -5557,7 +5570,7 @@
      "art": "36-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "2"
     },
     {
@@ -6531,19 +6544,19 @@
      "art": "36-A"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "27"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "28"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "14"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "18"
     },
     {
@@ -7108,8 +7121,8 @@
      "art": "5.2.1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -7380,28 +7393,14 @@
      "art": "186"
     },
     {
-     "ord": "LA",
-     "art": "8"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley Federal de Protección al Consumidor 8"
     },
     {
-     "ord": "LA",
-     "art": "57"
-    },
-    {
-     "ord": "LA",
-     "art": "58"
-    },
-    {
-     "ord": "LA",
-     "art": "60"
-    },
-    {
-     "ord": "LA",
-     "art": "61"
-    },
-    {
-     "ord": "LA",
-     "art": "62"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Puertos 60"
     },
     {
      "ord": "LFD",
@@ -7428,8 +7427,8 @@
      "art": "4.8.1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -7505,28 +7504,14 @@
      "art": "234"
     },
     {
-     "ord": "LA",
-     "art": "8"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley Federal de Protección al Consumidor 8"
     },
     {
-     "ord": "LA",
-     "art": "57"
-    },
-    {
-     "ord": "LA",
-     "art": "58"
-    },
-    {
-     "ord": "LA",
-     "art": "60"
-    },
-    {
-     "ord": "LA",
-     "art": "61"
-    },
-    {
-     "ord": "LA",
-     "art": "62"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Puertos 60"
     },
     {
      "ord": "CFF",
@@ -7561,8 +7546,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -7627,8 +7612,8 @@
      "art": "40"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -7672,8 +7657,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "20"
+     "ord": "RGCE",
+     "art": "anexo-20"
     }
    ]
   },
@@ -7727,7 +7712,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "13"
+     "art": "anexo-13"
     }
    ]
   },
@@ -7840,6 +7825,16 @@
      "art": "38"
     },
     {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Hidrocarburos"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley del Sector Hidrocarburos"
+    },
+    {
      "ord": "CFF",
      "art": "28"
     },
@@ -7888,12 +7883,12 @@
      "art": "anexo-10"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     },
     {
-     "ord": "RMF",
-     "art": "21"
+     "ord": "RGCE",
+     "art": "anexo-21"
     }
    ]
   },
@@ -8111,8 +8106,8 @@
      "art": "anexo-22"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -8982,8 +8977,9 @@
      "art": "146"
     },
     {
-     "ord": "LA",
-     "art": "131"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley General de Bienes Nacionales 131"
     },
     {
      "ord": "RGCE",
@@ -9134,7 +9130,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -9224,7 +9220,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -9301,7 +9297,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -9552,12 +9548,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "1"
-    },
-    {
-     "ord": "RMF",
-     "art": "2"
+     "ord": "RGCE",
+     "art": "anexo-1"
     }
    ]
   },
@@ -9631,7 +9623,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -9688,7 +9680,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -10104,15 +10096,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "10"
-    },
-    {
-     "ord": "RGCE",
-     "art": "20"
-    },
-    {
-     "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-10"
     }
    ]
   },
@@ -10449,7 +10433,7 @@
     },
     {
      "ord": "IMMEX",
-     "art": ""
+     "art": "anexo-i"
     },
     {
      "ord": "RGCE",
@@ -11428,7 +11412,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -11564,10 +11548,6 @@
     {
      "ord": "RGCE",
      "art": "anexo-1"
-    },
-    {
-     "ord": "RMF",
-     "art": "1"
     }
    ]
   },
@@ -11853,7 +11833,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -12300,7 +12280,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "9"
+     "art": "anexo-9"
     }
    ]
   },
@@ -12466,11 +12446,11 @@
      "art": "61"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "79"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "82"
     },
     {
@@ -12971,7 +12951,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "25"
+     "art": "anexo-25"
     }
    ]
   },
@@ -14763,8 +14743,8 @@
      "art": "anexo-22"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -14890,8 +14870,8 @@
      "art": "86-A"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -15961,7 +15941,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -16170,6 +16150,16 @@
     {
      "ord": "LA",
      "art": "102"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Hidrocarburos"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley del Sector Hidrocarburos"
     },
     {
      "ord": "RLA",
@@ -17089,16 +17079,9 @@
      "art": "107"
     },
     {
-     "ord": "LA",
-     "art": "40"
-    },
-    {
-     "ord": "LA",
-     "art": "41"
-    },
-    {
-     "ord": "LA",
-     "art": "42"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Navegación y Comercio Marítimos 40"
     },
     {
      "ord": "CFF",
@@ -17277,7 +17260,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "1"
+     "art": "anexo-1"
     }
    ]
   },
@@ -17744,7 +17727,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "24"
+     "art": "anexo-24"
     }
    ]
   },
@@ -17859,7 +17842,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "29"
+     "art": "anexo-29"
     }
    ]
   },
@@ -17893,6 +17876,11 @@
     {
      "ord": "LA",
      "art": "109"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley General del Equilibrio Ecológico y la Protección al Ambiente"
     },
     {
      "ord": "IMMEX",
@@ -18152,7 +18140,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -18253,23 +18241,23 @@
      "art": "109"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "8"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "9"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "10"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "11"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "12"
     },
     {
@@ -18600,7 +18588,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -18963,8 +18951,9 @@
      "art": "116"
     },
     {
-     "ord": "LA",
-     "art": "3"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley Federal para el Fomento de la Microindustria y la Actividad  Artesanal 3"
     },
     {
      "ord": "RGCE",
@@ -19173,7 +19162,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -19389,24 +19378,9 @@
      "art": "120"
     },
     {
-     "ord": "LA",
-     "art": "10"
-    },
-    {
-     "ord": "LA",
-     "art": "21"
-    },
-    {
-     "ord": "LA",
-     "art": "22"
-    },
-    {
-     "ord": "LA",
-     "art": "244"
-    },
-    {
-     "ord": "LA",
-     "art": "285"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley General de Organizaciones y Actividades Auxiliares de Crédito 10"
     },
     {
      "ord": "RLA",
@@ -19517,7 +19491,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     },
     {
      "ord": "RMF",
@@ -19620,6 +19594,11 @@
     {
      "ord": "LA",
      "art": "121"
+    },
+    {
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley General para la Prevención y Gestión Integral de los Residuos"
     },
     {
      "ord": "RLA",
@@ -19728,8 +19707,9 @@
      "art": "40"
     },
     {
-     "ord": "LA",
-     "art": "9"
+     "ord": "EXT",
+     "art": "",
+     "nombre": "Ley de Puertos 9"
     },
     {
      "ord": "LFDC",
@@ -19756,8 +19736,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -19821,8 +19801,8 @@
      "art": "4.5.17"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -19904,7 +19884,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -20043,7 +20023,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -20080,7 +20060,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -20390,11 +20370,11 @@
      "art": "151"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "34"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "35"
     },
     {
@@ -20610,8 +20590,8 @@
      "art": "1.1.4"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -20755,7 +20735,7 @@
      "art": "129"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "2"
     },
     {
@@ -21036,7 +21016,7 @@
      "art": "126"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "2"
     },
     {
@@ -21628,7 +21608,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "15"
+     "art": "anexo-15"
     }
    ]
   },
@@ -21804,7 +21784,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "17"
+     "art": "anexo-17"
     }
    ]
   },
@@ -22229,8 +22209,8 @@
      "art": "anexo-22"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -22259,7 +22239,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "29"
+     "art": "anexo-29"
     }
    ]
   },
@@ -22393,7 +22373,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "24"
+     "art": "anexo-24"
     }
    ]
   },
@@ -22432,7 +22412,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "29"
+     "art": "anexo-29"
     }
    ]
   },
@@ -22749,11 +22729,11 @@
      "art": "135-B"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -22919,11 +22899,11 @@
     },
     {
      "ord": "RGCE",
-     "art": "10"
+     "art": "anexo-10"
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -22951,11 +22931,11 @@
      "art": "135-D"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "34"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "35"
     }
    ]
@@ -23159,8 +23139,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -23217,8 +23197,8 @@
      "art": "49"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -23346,7 +23326,7 @@
      "art": "61"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "82"
     },
     {
@@ -23383,16 +23363,16 @@
    "correlaciones": "Ley del IVA 2-A, 25, RGCE Anexo 27, RMF 4.4.4.",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "2-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "25"
     },
     {
      "ord": "RGCE",
-     "art": "27"
+     "art": "anexo-27"
     },
     {
      "ord": "RMF",
@@ -23416,11 +23396,11 @@
    "correlaciones": "Ley del IVA 9, 29, CFF 14, RGCE 4.3.21.",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "9"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -23461,7 +23441,7 @@
      "art": "135-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -23572,7 +23552,7 @@
      "art": "112"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -23617,7 +23597,7 @@
      "art": "135"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -23658,7 +23638,7 @@
      "art": "53-L"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "19"
     },
     {
@@ -23666,8 +23646,8 @@
      "art": "105"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -23687,7 +23667,7 @@
    "correlaciones": "Ley del IEPS 19, CFF 105, RMF 5.2.11.",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "19"
     },
     {
@@ -23720,11 +23700,11 @@
      "art": "96"
     },
     {
-     "ord": "LA",
+     "ord": "LISAN",
      "art": "1"
     },
     {
-     "ord": "LA",
+     "ord": "LISAN",
      "art": "5"
     }
    ]
@@ -23757,11 +23737,11 @@
      "art": "109"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "27"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "147"
     },
     {
@@ -24011,7 +23991,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -24060,7 +24040,7 @@
     },
     {
      "ord": "RGCE",
-     "art": "22"
+     "art": "anexo-22"
     }
    ]
   },
@@ -24166,11 +24146,11 @@
      "art": "100-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -24178,7 +24158,7 @@
      "art": "40"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "27"
     },
     {
@@ -24279,11 +24259,11 @@
      "art": "135-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -24296,7 +24276,7 @@
     },
     {
      "ord": "IMMEX",
-     "art": ""
+     "art": "anexo-ii"
     },
     {
      "ord": "RGCE",
@@ -24360,11 +24340,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, CFF 66, 66-A, 69, 141, RGCE 1.2.2., 7.1.1., 7.1.2., 7.1.6., 7.2.1., Anexo 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -24485,8 +24465,8 @@
      "art": "anexo-1"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -24721,15 +24701,15 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, Ley del ISR 183, RGCE 1.2.2., 7.1.1., 7.1.2., 7.1.3., 7.1.6., 7.2.4., 7.2.7., Anexo 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "183"
     },
     {
@@ -24973,20 +24953,20 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, Decreto IMMEX Anexo II, RGCE Anexo 28",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
      "ord": "IMMEX",
-     "art": ""
+     "art": "anexo-ii"
     },
     {
      "ord": "RGCE",
-     "art": "28"
+     "art": "anexo-28"
     }
    ]
   },
@@ -25010,11 +24990,11 @@
      "art": "100-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25082,8 +25062,8 @@
      "art": "anexo-2"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -25156,11 +25136,11 @@
      "art": "100-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25216,8 +25196,8 @@
      "art": "anexo-30"
     },
     {
-     "ord": "RMF",
-     "art": "4"
+     "ord": "RGCE",
+     "art": "anexo-4"
     }
    ]
   },
@@ -25262,7 +25242,7 @@
     },
     {
      "ord": "IMMEX",
-     "art": ""
+     "art": "anexo-ii"
     },
     {
      "ord": "RLA",
@@ -25407,11 +25387,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, RGCE 1.2.2., 7.2.2., 7.2.4., Anexo 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25448,11 +25428,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, RGCE 1.2.1., 1.6.2., 2.5.2., 7.2.1., 7.2.3., 7.2.4., Anexos 1 y 30",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25550,11 +25530,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, RGCE 7.2.4., 7.2.7., Anexo 30",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25623,15 +25603,15 @@
      "art": "144"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -25877,11 +25857,15 @@
      "art": "185"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "1-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
+     "art": "10"
+    },
+    {
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -26063,7 +26047,7 @@
      "art": "112"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "29"
     },
     {
@@ -26425,11 +26409,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, CFF 141, 142, RGCE 7.1.2., 7.1.3., 7.4.2., Anexo 1",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26478,15 +26462,15 @@
      "art": "59"
     },
     {
-     "ord": "LA",
+     "ord": "LISR",
      "art": "27"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26587,11 +26571,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, Reglamento del CFF 77, RGCE 7.4.1., 7.4.2., 7.4.7., Anexo 30",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26632,11 +26616,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, RGCE 1.2.1., 7.4.1., 7.4.2., 7.4.3., 7.4.7., 7.4.10., Anexos 1 y 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26689,11 +26673,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, RGCE 1.2.1., 7.4.1., Anexo 2",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26825,11 +26809,11 @@
      "art": "6"
     },
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {
@@ -26915,11 +26899,11 @@
    "correlaciones": "Ley del IVA 28-A, Ley del IEPS 15-A, CFF 12, 134, 135, RGCE 7.4.1., 7.4.3., 7.4.7., 7.4.8., 7.4.9.",
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "LIVA",
      "art": "28-A"
     },
     {
-     "ord": "LA",
+     "ord": "LIEPS",
      "art": "15-A"
     },
     {

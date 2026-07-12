@@ -33,47 +33,75 @@ CORRELACION_FUERTE_RE = re.compile(
 CORRELACION_DEBIL_RE = re.compile(r"^(Anexos?|Decreto|Acuerdo|Resoluci[óo]n|Tratados)\b")
 
 
+LEYES_NOMBRADAS = [
+    (r"\bIVA\b", "LIVA"), (r"\bIEPS\b", "LIEPS"),
+    (r"\bISR\b|Impuesto sobre la Renta", "LISR"),
+    (r"Federal de Derechos", "LFD"), (r"Comercio Exterior", "LCE"),
+    (r"Impuestos Generales", "LIGIE"), (r"\bISAN\b|Autom[óo]viles Nuevos", "LISAN"),
+]
+
+
+def _num_norm(a):
+    a = a.strip().rstrip(".")
+    a = a[:-1] if a.endswith("o") else a
+    return re.sub(r"\s+", "-", a.lower()) if " " in a else a
+
+
 def parse_correlaciones(texto):
-    """'Ley 68, 162, CFF 49 Bis, RGCE 1.9.16., Anexo 1' -> referencias estructuradas."""
+    """'Ley 68, CFF 49 Bis, Ley del IVA 28-A, RGCE 1.9.16., Anexo 1' -> refs estructuradas."""
     refs = []
     ord_actual = None
-    # tokeniza por comas conservando palabras clave
-    partes = re.split(r",", texto)
-    for p in partes:
+    for p in re.split(r",", texto):
         p = p.strip().rstrip(".")
         if not p:
             continue
-        m = re.match(r"^(Anexos?)\s+(.+)$", p, re.I)
+        # "Ley del IVA 28-A", "Ley Federal de Derechos 40": ley nombrada, NO es la Ley Aduanera
+        m = re.match(r"^Ley\s+(del?\s|de\s+la\s|de\s+los\s|Federal\s|General\s)(.+)$", p, re.I)
         if m:
-            for n in re.findall(r"\d+[A-Za-z\-]*", m.group(2)):
-                refs.append({"ord": "RGCE", "art": f"anexo-{n}"})
+            ord_actual = next((o for pat, o in LEYES_NOMBRADAS if re.search(pat, p, re.I)), None)
+            if ord_actual is None:
+                refs.append({"ord": "EXT", "art": "", "nombre": p[:80]})
+                ord_actual = "NOMBRADO"
+                continue
+            nums = re.findall(r"\d+[oO]?\.?(?:-[A-Z])?(?:\s+(?:Bis|bis|Ter|ter)(?:\s+\d+)?)?$", p)
+            for a in nums:
+                refs.append({"ord": ord_actual, "art": _num_norm(a)})
+            continue
+        # "Anexo 1", "Anexos 1 y 30", "RGCE Anexo 22", "Decreto IMMEX Anexo II"
+        m = re.match(r"^(?:(RGCE)\s+)?Anexos?\s+(.+)$", p, re.I)
+        if m:
+            for n in re.findall(r"\d+[A-Za-z\-]*|[IVX]+(?:\s+(?:Bis|Ter))?", m.group(2)):
+                refs.append({"ord": "RGCE", "art": f"anexo-{_num_norm(n)}"})
             ord_actual = "ANEXO"
             continue
         m = re.match(r"^(Decreto|Acuerdo|Resoluci[óo]n|Tratados)\b(.*)$", p, re.I)
         if m:
-            nombre = p
-            if re.search(r"IMMEX", nombre, re.I):
-                refs.append({"ord": "IMMEX", "art": ""})
+            if re.search(r"IMMEX", p, re.I):
+                ma = re.search(r"Anexos?\s+([IVX]+(?:\s+(?:Bis|Ter))?|\d+)", p, re.I)
+                refs.append({"ord": "IMMEX", "art": f"anexo-{_num_norm(ma.group(1)).lower()}" if ma else ""})
             else:
-                refs.append({"ord": "EXT", "art": "", "nombre": nombre[:80]})
+                refs.append({"ord": "EXT", "art": "", "nombre": p[:80]})
             ord_actual = "NOMBRADO"
             continue
         m = re.match(r"^([A-Z]{2,6}|Ley|Reglamento)\s+(.+)$", p)
         if m and m.group(1) in TOKENS_ORD:
             ord_actual = TOKENS_ORD[m.group(1)]
             p = m.group(2)
-        if ord_actual in (None, "ANEXO", "NOMBRADO"):
-            if ord_actual == "ANEXO" and re.match(r"^\d+[A-Za-z\-]*$", p):
+        if ord_actual in (None, "NOMBRADO"):
+            continue
+        if ord_actual == "ANEXO":
+            if re.match(r"^\d+[A-Za-z\-]*$", p):
                 refs.append({"ord": "RGCE", "art": f"anexo-{p}"})
-                continue
-            if not m:
-                continue
+            continue
+        # "Anexo 22" tras un ordenamiento: "RGCE 1.9.16., Anexo 22"
+        ma = re.match(r"^Anexos?\s+(.+)$", p, re.I)
+        if ma:
+            for n in re.findall(r"\d+[A-Za-z\-]*", ma.group(1)):
+                refs.append({"ord": "RGCE", "art": f"anexo-{n}"})
+            continue
         arts = re.findall(r"\d+\.\d+\.\d+|\d+[oO]?(?:-[A-Z])?(?:\s+(?:Bis|Ter|bis|ter)(?:\s+\d+)?)?", p)
         for a in arts:
-            a = a.strip().rstrip(".")
-            a = a[:-1] if a.endswith("o") else a
-            a = re.sub(r"\s+", "-", a.lower()) if " " in a else a
-            refs.append({"ord": ord_actual, "art": a})
+            refs.append({"ord": ord_actual, "art": _num_norm(a)})
     # dedup
     vistos, unicos = set(), []
     for r in refs:
