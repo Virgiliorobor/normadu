@@ -1,0 +1,65 @@
+{
+ "proyecto": "normadu — Normativa Aduanera Mexicana en JSON estructurado",
+ "descripcion": "Textos vigentes de la normativa de comercio exterior de México, un JSON por ordenamiento. Cada entrada de 'articulos' tiene: id, numero, epigrafe, jerarquía (titulo/capitulo/seccion), texto, referencias [{ord, art}], notas_reforma e historial (textos anteriores a cada reforma).",
+ "actualizado": "2026-07-12",
+ "esquema_referencias": "ord = id del ordenamiento destino (LA, RLA, RGCE, RCSE, IMMEX) o externo (CFF, RMF, LIVA, LIEPS, LISR, LFD, LCE, RLCE, LIGIE); art = número de artículo/regla, o 'anexo-N'.",
+ "registro_modificaciones": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/modificaciones.json",
+ "visor_html": "https://github.com/Virgiliorobor/normadu/blob/main/normativa.html (autocontenido; descargar y abrir)",
+ "ordenamientos": [
+  {
+   "id": "LA",
+   "nombre": "Ley Aduanera",
+   "tipo": "ley",
+   "archivo": "ley_aduanera.json",
+   "url_raw": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/ley_aduanera.json",
+   "publicacion_original": "15 de diciembre de 1995",
+   "ultima_reforma": "19-11-2025",
+   "total_articulos": 277,
+   "fuente_oficial": "https://www.diputados.gob.mx/LeyesBiblio/doc/LAdua.doc"
+  },
+  {
+   "id": "RLA",
+   "nombre": "Reglamento de la Ley Aduanera",
+   "tipo": "reglamento",
+   "archivo": "reglamento_la.json",
+   "url_raw": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/reglamento_la.json",
+   "publicacion_original": "20 de abril de 2015",
+   "ultima_reforma": "23-02-2026",
+   "total_articulos": 282,
+   "fuente_oficial": "https://www.diputados.gob.mx/LeyesBiblio/regley/Reg_LAdua.doc"
+  },
+  {
+   "id": "RGCE",
+   "nombre": "Reglas Generales de Comercio Exterior 2026",
+   "tipo": "reglas",
+   "archivo": "rgce.json",
+   "url_raw": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/rgce.json",
+   "publicacion_original": "DOF 27-12-2025",
+   "ultima_reforma": "14-05-2026",
+   "total_articulos": 574,
+   "fuente_oficial": "https://www.dof.gob.mx/nota_detalle.php?codigo=5777199&fecha=27/12/2025"
+  },
+  {
+   "id": "RCSE",
+   "nombre": "Reglas y Criterios de Comercio Exterior (SE)",
+   "tipo": "reglas",
+   "archivo": "reglas_se.json",
+   "url_raw": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/reglas_se.json",
+   "publicacion_original": "DOF 09-05-2022",
+   "ultima_reforma": "02-04-2026",
+   "total_articulos": 198,
+   "fuente_oficial": "https://www.snice.gob.mx/~oracle/SNICE_DOCS/ACUERDO-REGLAS-SE-02ABRIL2026-BIBLIOTECA_20260520-20260520.pdf"
+  },
+  {
+   "id": "IMMEX",
+   "nombre": "Decreto IMMEX",
+   "tipo": "decreto",
+   "archivo": "immex.json",
+   "url_raw": "https://raw.githubusercontent.com/Virgiliorobor/normadu/main/data/immex.json",
+   "publicacion_original": "DOF 01-11-2006",
+   "ultima_reforma": "28-08-2025",
+   "total_articulos": 41,
+   "fuente_oficial": "https://www.snice.gob.mx/~oracle/SNICE_DOCS/DECRETO-IMMEX-BIBLIOTECA_20250925-20250925.08.2025).pdf"
+  }
+ ]
+}
