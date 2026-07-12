@@ -117,7 +117,12 @@
     "Párrafo reformado DOF 25-06-2018",
     "Artículo reformado DOF 30-12-1996, 31-12-1998"
    ],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "70"
+    }
+   ],
    "texto": "ARTICULO 5o. El monto de las multas y cantidades en moneda nacional establecidas en esta Ley, se actualizará en los términos del artículo 70 del Código Fiscal de la Federación.\n\nCuando en esta Ley se señalen multas con base en el monto de las contribuciones omitidas, la autoridad aduanera, para la determinación de dichas multas deberá considerar las contribuciones sin la actualización correspondiente."
   },
   {
@@ -200,7 +205,12 @@
    "notas_reforma": [
     "Artículo adicionado DOF 09-12-2013"
    ],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "17-D"
+    }
+   ],
    "texto": "ARTICULO 9o.-A. Las personas físicas y morales que realicen trámites a través del sistema electrónico aduanero, se sujetarán en materia de notificaciones a lo siguiente:\n\nEl sistema electrónico aduanero enviará a las direcciones de correo electrónico proporcionadas por el interesado para tal efecto, un aviso de disponibilidad de notificación, indicándole que la autoridad competente ha emitido un acto administrativo relacionado con su trámite y que para conocerlo deberá darse por notificado. La notificación deberá contener la firma electrónica avanzada del funcionario competente, la cual producirá los mismos efectos que la firma autógrafa, de conformidad con el artículo 17-D del Código Fiscal de la Federación.\n\nEl interesado o los autorizados para recibir notificaciones, deberán ingresar a su buzón dentro del sistema electrónico aduanero para conocer el acto administrativo a notificar, contando para tal efecto con un plazo de cinco días hábiles computados a partir de la fecha de envío del aviso de la disponibilidad de notificación. Una vez que el acto administrativo sea abierto con la firma electrónica avanzada o con el sello digital del interesado, el sistema generará el acuse de la notificación respectivo, en el que constará la fecha y hora de la apertura.\n\nSe tendrá como legalmente practicada la notificación y surtirá efectos a partir del día hábil siguiente a aquél en el que se generó el acuse de la notificación."
   },
   {
@@ -567,7 +577,12 @@
     "Párrafo adicionado DOF 25-06-2018. Reformado DOF 06-11-2020",
     "Párrafo reformado DOF 19-11-2025"
    ],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "40"
+    }
+   ],
    "texto": "ARTICULO 17. Las personas que presten sus servicios o que realicen actividades dentro de los recintos fiscales o fiscalizados deberán portar los gafetes u otros distintivos que los identifiquen, en los términos que establezca el Servicio de Administración Tributaria mediante reglas.\n\nSólo podrán ingresar a los recintos fiscales o fiscalizados las personas autorizadas por las autoridades aduaneras. En caso de inobservancia a lo dispuesto en este párrafo, dichas autoridades procederán a realizar los actos a que se refiere el artículo 40 del Código Fiscal de la Federación.\n\nLa Agencia Nacional de Aduanas de México podrá expedir un gafete electrónico de identificación a través del sistema electrónico aduanero, por el cual los interesados pagarán un aprovechamiento de $270.00, mismo que será destinado a la Agencia Nacional de Aduanas de México para el mejoramiento de la infraestructura aduanera del país.\nCantidad del párrafo actualizada DOF 27-12-2022, 28-12-2023, 30-12-2024, 27-12-2025"
   },
   {
@@ -1115,6 +1130,10 @@
     {
      "ord": "LA",
      "art": "36-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "36"
     }
    ],
    "texto": "ARTICULO 43. Elaborado el pedimento y efectuado el pago de las contribuciones y, en su caso, de las cuotas compensatorias determinadas por el interesado, se presentarán las mercancías ante la autoridad aduanera y se activará el mecanismo de selección automatizado que determinará si debe practicarse el reconocimiento aduanero de las mismas. En caso afirmativo, la autoridad aduanera efectuará el reconocimiento ante quien presente las mercancías en el recinto fiscal, sin perjuicio de que dicho reconocimiento pueda llevarse a cabo de manera distinta conforme a lo dispuesto en los tratados internacionales de los que México sea parte o en los acuerdos interinstitucionales de los que la Secretaría sea parte.\n\nEl mecanismo de selección automatizado se activará con la presentación ante la aduana del dispositivo tecnológico o medio electrónico de que se trate, o bien del pedimento, aviso consolidado o documento aduanero, en los términos que al efecto establezca el Servicio de Administración Tributaria mediante reglas.\n\nSi no se detectan irregularidades en el reconocimiento aduanero o que den lugar al embargo precautorio de las mercancías, o el resultado del mecanismo de selección automatizado determina que no debe practicarse el reconocimiento aduanero, se entregarán éstas de inmediato.\n\nEn caso de que no se hubiera transmitido y presentado el documento a que se refiere el artículo 36-A, fracción I, inciso e) de esta Ley, las mercancías se entregarán una vez presentado el mismo.\n\nNo será necesario presentar las mercancías ante el mecanismo de selección automatizado, en los supuestos que establezca el Servicio de Administración Tributaria mediante reglas, siempre que las mercancías se encuentren dentro del recinto fiscal o fiscalizado, por lo que en caso de que el mecanismo de selección automatizado determine que deba practicarse el reconocimiento aduanero, éste deberá efectuarse en el recinto correspondiente.\n\nEn los supuestos en que no se requiera pedimento para activar el mecanismo de selección automatizado, se deberán presentar ante dicho mecanismo las mercancías con la documentación correspondiente, en los términos a que se refiere este artículo.\n\nEl reconocimiento aduanero no limita las facultades de comprobación de las autoridades aduaneras respecto de las mercancías que se introduzcan o extraigan del territorio nacional, no siendo aplicable en estos casos el artículo 36 del Código Fiscal de la Federación. Si las autoridades omiten al momento del despacho objetar el valor de las mercancías o los documentos o informaciones que sirvan de base para determinarlo, no se entenderá que el valor declarado ha sido aceptado o que existe resolución favorable al particular.\n\nLas autoridades aduaneras, en ejercicio de sus facultades, podrán emplear los sistemas, equipos tecnológicos, cualquier otro medio o servicio con que se cuente y que facilite el reconocimiento, la inspección o la verificación de las mercancías.\n\nCuando el reconocimiento aduanero se practique con apoyo de particulares autorizados, empleando al efecto tecnología no intrusiva, se emitirá por los dictaminadores aduaneros un dictamen aduanero relativo al análisis e interpretación de imágenes, cuyo contenido se presumirá cierto, que deberá proporcionarse a las autoridades aduaneras inmediatamente después de realizarlo, en los términos y condiciones que establezca el Servicio de Administración Tributaria mediante reglas, para los efectos de su competencia y, en su caso, continuación del reconocimiento aduanero."
@@ -1189,6 +1208,18 @@
     "Reforma DOF 19-11-2025: Derogó del artículo el entonces párrafo sexto (antes reformado DOF 25-06-2018, 01-07-2020)"
    ],
    "referencias": [
+    {
+     "ord": "CFF",
+     "art": "18"
+    },
+    {
+     "ord": "CFF",
+     "art": "18-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "34"
+    },
     {
      "ord": "LA",
      "art": "152"
@@ -1425,6 +1456,10 @@
     {
      "ord": "LA",
      "art": "56"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-A"
     }
    ],
    "texto": "ARTICULO 58.- Para la reexpedición de mercancías de procedencia extranjera de la franja o región fronteriza al resto del país, las contribuciones se determinarán considerando el valor en aduana de las mercancías en la fecha en que se hubieran dado los supuestos a que se refiere la fracción I del artículo 56 de esta Ley, y se actualizarán en los términos del artículo 17-A del Código Fiscal de la Federación.\n\nTratándose de mercancías que hayan sido objeto de procesos de elaboración o transformación en dicha franja o región, se estará a lo siguiente:\n\nl.\tCuando al producto terminado le corresponda una fracción arancelaria y un número de identificación comercial diferente a las mercancías de procedencia extranjera empleadas o incorporadas en los procesos de elaboración o transformación, no le será aplicable el primer párrafo de este artículo. En este caso, las contribuciones se determinarán al momento de la reexpedición, considerando únicamente el valor en aduana de las mercancías extranjeras empleadas e incorporadas, así como la clasificación arancelaria y el número de identificación comercial del producto terminado.\n\nll.\tCuando las mercancías incorporadas al producto terminado puedan ser identificadas, el importador podrá optar por pagar los impuestos conforme a lo dispuesto en el primer párrafo o a lo señalado por la fracción l de este artículo.\n\nLas obligaciones en materia de regulaciones y restricciones no arancelarias, excepto tratándose de cuotas compensatorias, en los casos a que se refieren las fracciones anteriores, serán las que correspondan a la fecha de la reexpedición.\n\nTratándose de mercancías usadas que se reexpidan al resto del territorio nacional que hubieran sido importadas como nuevas a la franja o región fronteriza, no requerirán permiso para su reexpedición, siempre que se pueda comprobar dicha circunstancia. Lo dispuesto en este párrafo no será aplicable a la reexpedición de mercancías usadas cuya importación como nueva a la franja o región fronteriza no requiera de permiso y sí lo requiera para su importación al resto del territorio nacional."
@@ -1580,7 +1615,12 @@
    "seccion": "Segunda",
    "seccion_nombre": "Exenciones",
    "notas_reforma": [],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    }
+   ],
    "texto": "ARTICULO 63. Las mercancías importadas al amparo de alguna franquicia, exención o estímulo fiscal no podrán ser enajenadas ni destinadas a propósitos distintos de los que motivaron el beneficio. Su enajenación únicamente procederá cuando no se desvirtúen dichos propósitos.\n\nCuando proceda la enajenación de las mercancías el adquirente quedará subrogado en las obligaciones del importador.\n\nLas autoridades aduaneras procederán al cobro del impuesto general de importación y de las cuotas compensatorias causados desde la fecha en que las mercancías fueron introducidas al territorio nacional, actualizándose el citado impuesto conforme al artículo 17-A del Código Fiscal de la Federación, cuando sean enajenadas o destinadas a finalidades diversas de las que motivaron el beneficio a que se refiere este artículo, independientemente de la imposición de las sanciones que correspondan."
   },
   {
@@ -2003,6 +2043,14 @@
     {
      "ord": "LA",
      "art": "151"
+    },
+    {
+     "ord": "CFF",
+     "art": "46"
+    },
+    {
+     "ord": "CFF",
+     "art": "48"
     }
    ],
    "texto": "ARTICULO 78-C. Los hechos que se conozcan con motivo del ejercicio de las facultades de comprobación de las autoridades aduaneras, que consten en los expedientes o documentos que lleven o tengan en su poder dichas autoridades, la información disponible en territorio nacional del valor en aduana de mercancías idénticas, similares o de la misma especie o clase, así como aquéllos proporcionados por otras autoridades, por terceros o por autoridades extranjeras, podrán servir para motivar las resoluciones en las que se determine el valor en aduana de las mercancías importadas, así como para proceder al embargo precautorio de las mercancías en los términos del artículo 151 fracción VII de esta Ley.\n\nLa información relativa a la identidad de terceros que importen o hayan importado mercancías idénticas, similares o de la misma especie o clase, cuyo valor en aduana se utilice para determinar el valor de las mercancías objeto de resolución, así como la información confidencial de dichas importaciones que se utilice para motivar la resolución, sólo podrá ser revelada a los tribunales ante los que, en su caso, se impugne el acto de autoridad.\n\nNo obstante lo dispuesto en el párrafo anterior, el interesado podrá designar un máximo de dos representantes, con el fin de tener acceso a la información confidencial proporcionada u obtenida de terceros respecto del valor en aduana en importaciones de mercancías idénticas, similares o de la misma especie o clase, en los términos de lo dispuesto en los artículos 46 y 48 del Código Fiscal de la Federación."
@@ -2094,7 +2142,7 @@
    ],
    "referencias": [
     {
-     "ord": "LA",
+     "ord": "CFF",
      "art": "17-A"
     },
     {
@@ -2231,6 +2279,14 @@
     {
      "ord": "LA",
      "art": "86-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "21"
     }
    ],
    "texto": "ARTICULO 87. Las instituciones de crédito o casas de bolsa autorizadas para operar cuentas aduaneras tendrán las siguientes obligaciones:\n\nI.\tPresentar declaración mensual en la que manifiesten el nombre y Registro Federal de Contribuyentes de los usuarios de las cuentas aduaneras, así como las cantidades transferidas a la cuenta del importador y de la Tesorería de la Federación. La declaración a que se refiere esta fracción deberá presentarse por el mes inmediato anterior, en los términos que se señalen mediante reglas.\n\nII.\tTransferir el importe de los títulos depositados, más sus rendimientos a la cuenta de la Tesorería de la Federación, al día siguiente a aquél en que el importador hubiera dado el aviso de que no va a retornar las mercancías al extranjero o dentro de los cinco días hábiles siguientes a aquél en que se venzan los plazos a que se refieren los artículos 85 y 86 de esta Ley, en su caso.\n\nIII.\tTransferir el importe de los títulos depositados y sus rendimientos a la cuenta de la Tesorería de la Federación, cuando se lo solicite la autoridad competente, hasta por el importe del crédito fiscal determinado, en los casos a que se refiere el artículo 86-A de esta Ley.\n\nEn caso de incumplimiento de las obligaciones previstas en las fracciones II o III de este artículo, la institución de crédito o casa de bolsa autorizada deberá cubrir por concepto de resarcimiento, un monto equivalente a la cantidad que resulte de actualizar el importe de los títulos depositados más los rendimientos generados, en los términos del artículo 17-A del Código Fiscal de la Federación, adicionado con una cantidad equivalente a los recargos que se pagarían en los términos del artículo 21 del Código Fiscal de la Federación, a partir de la fecha en que debió hacerse la transferencia y hasta que la misma se efectúe. Lo anterior, sin perjuicio de las sanciones que resulten aplicables."
@@ -2484,6 +2540,10 @@
     {
      "ord": "LA",
      "art": "99"
+    },
+    {
+     "ord": "CFF",
+     "art": "21"
     }
    ],
    "texto": "ARTICULO 98. Las empresas podrán importar mercancías mediante el procedimiento de revisión en origen. Este procedimiento consiste en lo siguiente:\n\nI.\tEl importador verifica y asume como ciertos, bajo su responsabilidad, los datos sobre las mercancías que le proporcione su proveedor, necesarios para elaborar el pedimento correspondiente, mismos que deberá manifestar al agente aduanal que realice el despacho.\n\nII.\tEl agente aduanal que realice el despacho de las mercancías queda liberado de cualquier responsabilidad, inclusive de las derivadas por la omisión de contribuciones y cuotas compensatorias o por el incumplimiento de las demás regulaciones y restricciones no arancelarias, cuando hubiera asentado fielmente en el pedimento los datos que le fueron proporcionados por el importador y conserve a disposición de las autoridades aduaneras el documento por medio del cual le fueron manifestados dichos datos.\n\nIII.\tCuando con motivo del reconocimiento aduanero, la verificación de mercancías en transporte o visitas domiciliarias, las autoridades aduaneras determinen omisiones en el pago de las contribuciones y cuotas compensatorias que se causen con motivo de la importación de mercancías, se exigirá el pago de las mismas y de sus accesorios. En este caso no serán aplicables otras sanciones que por dichas omisiones se encuentren previstas en esta Ley o en el Código Fiscal de la Federación, a que puedan estar sujetos el importador o el agente aduanal.\n\nIV.\tEl importador deberá, además, pagar las contribuciones y cuotas compensatorias que, en su caso, resulten a su cargo conforme a lo señalado en el artículo 99 de esta Ley.\n\nV.\tEl importador podrá pagar espontáneamente las contribuciones y cuotas compensatorias que haya omitido pagar derivadas de la importación de mercancías importadas bajo el procedimiento previsto en este artículo. Dichas contribuciones actualizadas causarán recargos a la tasa aplicable para el caso de prórroga de créditos fiscales del mes de que se trate, siempre que dicho pago se realice dentro de los treinta días naturales siguientes a aquél en el que se hubiera efectuado la importación correspondiente. Si el pago se efectúa con posterioridad a dicho plazo, los recargos sobre las contribuciones actualizadas se causarán a la tasa que corresponda de acuerdo con el artículo 21 del Código Fiscal de la Federación. En ambos supuestos las contribuciones se actualizarán por el periodo comprendido entre el penúltimo mes anterior a aquel en que se omitió la contribución y el mes inmediato anterior a aquél en que se efectúe el pago.\n\nVI.\tEl importador deberá registrar ante el Servicio de Administración Tributaria a los agentes aduanales y transportistas designados que operarán bajo este esquema.\n\nLas cuotas compensatorias causarán recargos a las tasas previstas en los dos supuestos del párrafo anterior, según se trate.\npor DOF 30-12-2002)"
@@ -2816,7 +2876,12 @@
     "Párrafo reformado DOF 31-12-1998",
     "Párrafo adicionado DOF 30-12-2002"
    ],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    }
+   ],
    "texto": "ARTICULO 109. Las maquiladoras y las empresas con programas de exportación autorizados por la Secretaría de Economía deberán presentar ante las autoridades aduaneras, declaración en la que proporcionen información sobre las mercancías que retornen, la proporción que representan de las importadas temporalmente, las mermas y los desperdicios que no se retornen, así como aquellas que son destinadas al mercado nacional, conforme a lo que establezca el Reglamento.\n\nLos contribuyentes a que se refiere este artículo, podrán convertir la importación temporal en definitiva, siempre que paguen las cuotas compensatorias vigentes al momento del cambio de régimen, el impuesto general de importación actualizado en los términos del artículo 17-A del Código Fiscal de la Federación, a partir del mes en que las mercancías se importaron temporalmente y hasta que se efectúe el cambio de régimen.\n\nNo se considerarán importadas definitivamente, las mermas y los desperdicios de las mercancías importadas temporalmente, siempre que los desperdicios se destruyan y se cumpla con las disposiciones de control que establezca el Reglamento.\n\nPara los efectos del párrafo anterior, las empresas con programas de maquila o de exportación, podrán transferir los desperdicios de las mercancías que hubieran importado temporalmente, a otras maquiladoras o empresas con programas de exportación, que vayan a llevar a cabo los procesos de transformación, elaboración o reparación, o realizar el retorno de dichas mercancías, siempre que tramiten un pedimento de exportación por el desperdicio o material obsoleto a nombre de la persona que realice la transferencia, y conjuntamente se tramite un pedimento de importación temporal a nombre de la empresa que recibe las mercancías, cumpliendo con los requisitos que señale el Servicio de Administración Tributaria."
   },
   {
@@ -3054,6 +3119,10 @@
     "Párrafo reformado DOF 30-12-1996, 25-06-2018"
    ],
    "referencias": [
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    },
     {
      "ord": "LA",
      "art": "56"
@@ -3821,6 +3890,10 @@
    ],
    "referencias": [
     {
+     "ord": "CFF",
+     "art": "17-H"
+    },
+    {
      "ord": "LA",
      "art": "121"
     }
@@ -4057,6 +4130,18 @@
     {
      "ord": "LA",
      "art": "150"
+    },
+    {
+     "ord": "CFF",
+     "art": "123"
+    },
+    {
+     "ord": "CFF",
+     "art": "130"
+    },
+    {
+     "ord": "CFF",
+     "art": "46-A"
     }
    ],
    "texto": "ARTICULO 152. En los casos en que con motivo del reconocimiento aduanero, de la verificación de mercancías en transporte, de la revisión de los documentos presentados durante el despacho o del ejercicio de las facultades de comprobación, en que proceda la determinación de contribuciones omitidas, aprovechamientos y, en su caso, la imposición de sanciones y no sea aplicable el artículo 151 de esta Ley, las autoridades aduaneras procederán a su determinación, sin necesidad de sustanciar el procedimiento establecido en el artículo 150 de esta Ley.\n\nTratándose de mercancías de difícil identificación, que requiera la toma de muestras a fin de identificar su composición cualitativa o cuantitativa, uso, proceso de obtención o características físicas, se realizará dicha toma de acuerdo con el procedimiento que al efecto prevé el reglamento, para su análisis y dictamen conducentes.\n\nUna vez obtenido el dictamen correspondiente, resultado del análisis practicado a las muestras de mercancías de difícil identificación, se notificarán al interesado mediante escrito o acta circunstanciada, los hechos u omisiones advertidos, dentro del plazo de seis meses contados a partir del acta de toma de muestras correspondientes, y se continuará el procedimiento conforme a lo establecido en el presente artículo.\n\nCuando no se requiera la toma de muestras para su identificación, la autoridad aduanera dará a conocer mediante escrito o acta circunstanciada, los hechos u omisiones que impliquen la omisión de contribuciones, cuotas compensatorias y, en su caso, la imposición de sanciones.\n\nDentro del escrito o acta circunstanciada levantada en los términos de los párrafos tercero y cuarto de este artículo, deberá señalarse que el interesado cuenta con un plazo de diez días hábiles, contados a partir del día siguiente a aquel en que surta efectos la notificación del escrito o acta, a fin de ofrecer las pruebas y formular los alegatos que a su derecho convenga.\n\nEl ofrecimiento, desahogo y valoración de las pruebas se hará de conformidad con lo dispuesto en los Artículos 123 y 130 del Código Fiscal de la Federación.\n\nDentro del plazo de diez días siguientes a aquél en el que se recibieron las pruebas aportadas por el contribuyente, si la autoridad identifica elementos adicionales que deban ser verificados, podrá efectuarle un requerimiento de información y documentación adicional, así como a terceros, el cual deberá ser atendido dentro del plazo de diez días siguientes a aquél en el que se notificó.\n\nLas autoridades aduaneras emitirán resolución en un plazo que no excederá de cuatro meses, contados a partir del día siguiente a aquél en que se encuentre debidamente integrado el expediente. En caso de no emitirla, deberá poner de inmediato a disposición del interesado la mercancía de su propiedad. Dicho plazo se suspenderá cuando se actualice alguno de los supuestos establecidos en el artículo 46-A, segundo párrafo del Código Fiscal de la Federación, en cuyo caso la autoridad aduanera deberá notificar al contribuyente la fecha de suspensión y reactivación del plazo.\n\nSe entiende que el expediente se encuentra debidamente integrado una vez que haya vencido el plazo de diez días hábiles para la presentación de los escritos de pruebas y alegatos de todas las partes involucradas o, en caso de resultar procedente, la autoridad encargada de emitir la resolución haya llevado a cabo las diligencias necesarias para el desahogo de las pruebas ofrecidas por los promoventes.\n\nEn los demás casos la determinación del crédito fiscal se hará por la autoridad aduanera.\n\nEn el escrito o acta de inicio del procedimiento se deberá requerir al interesado para que señale domicilio para oír y recibir notificaciones, apercibido que de no señalar el domicilio, de señalar uno que no le corresponda a él o a su representante, de desocupar el domicilio señalado sin aviso a la autoridad competente o señalando un nuevo domicilio que no le corresponda a él o a su representante, de desaparecer después de iniciadas las facultades de comprobación o de oponerse a las diligencias de notificación de los actos relacionados con el procedimiento, negándose a firmar las actas que al efecto se levanten, las notificaciones se efectuarán conforme a lo establecido en el Código Fiscal de la Federación.\n\nCuando proceda la imposición de sanciones sin la determinación de contribuciones o cuotas compensatorias omitidas ni el embargo precautorio de mercancías, la autoridad aduanera determinará el crédito fiscal sin necesidad de sustanciar el procedimiento establecido en este artículo y en el artículo 150 de esta Ley, quedando a salvo sus derechos para interponer los medios de defensa. Al efecto, la autoridad aduanera emitirá y notificará el acto administrativo en el que se funde y motive la sanción aplicable."
@@ -4082,6 +4167,14 @@
      "art": "150"
     },
     {
+     "ord": "CFF",
+     "art": "123"
+    },
+    {
+     "ord": "CFF",
+     "art": "130"
+    },
+    {
      "ord": "LA",
      "art": "36"
     },
@@ -4092,6 +4185,10 @@
     {
      "ord": "LA",
      "art": "151"
+    },
+    {
+     "ord": "CFF",
+     "art": "46-A"
     }
    ],
    "texto": "ARTICULO 153. El interesado deberá ofrecer por escrito, las pruebas y alegatos que a su derecho convenga, ante la autoridad aduanera que hubiera levantado el acta a que se refiere el artículo 150 de esta Ley, dentro de los diez días siguientes a aquél en que surta efectos la notificación de dicha acta. El ofrecimiento, desahogo y valoración de las pruebas se hará de conformidad con lo dispuesto por los artículos 123 y 130 del Código Fiscal de la Federación. Tratándose de la valoración de los documentos con los que se pretenda comprobar la legal estancia o tenencia de las mercancías, cuando la información en ellos contenida deba transmitirse en el sistema electrónico aduanero previsto en los artículos 36 y 36-A de esta Ley para su despacho, se dará pleno valor probatorio a la información transmitida.\n\nCuando el interesado presente pruebas documentales que acrediten la legal estancia o tenencia de las mercancías en el país; desvirtúen los supuestos por los cuales fueron objeto de embargo precautorio o acrediten que el valor declarado fue determinado de conformidad con el Título III, Capítulo III, Sección Primera de esta Ley en los casos a que se refiere el artículo 151, fracción VII de esta Ley, la autoridad que levantó el acta a que se refiere el artículo 150 de esta Ley, dictará de inmediato la resolución, sin que en estos casos se impongan sanciones; de existir mercancías embargadas se ordenará su devolución. Cuando el interesado no presente las pruebas o éstas no desvirtúen los supuestos por los cuales se embargó precautoriamente la mercancía, las autoridades aduaneras deberán de dictar resolución definitiva, en un plazo que no excederá de cuatro meses, contados a partir del día siguiente a aquél en que se encuentre debidamente integrado el expediente. Se entiende que el expediente se encuentra debidamente integrado cuando hayan vencido los plazos para la presentación de todos los escritos de pruebas y alegatos o, en caso de resultar procedente, la autoridad encargada de emitir la resolución haya llevado a cabo las diligencias necesarias para el desahogo de las pruebas ofrecidas por los promoventes. De no emitirse la resolución definitiva en el término de referencia, quedarán sin efectos las actuaciones de la autoridad que dieron inicio al procedimiento.\n\nEl plazo a que se refiere el párrafo anterior, se suspenderá cuando se actualice alguno de los supuestos establecidos en el artículo 46-A, segundo párrafo del Código Fiscal de la Federación, en cuyo caso la autoridad aduanera deberá notificar al contribuyente la fecha de suspensión y reactivación del plazo.\n\nTratándose de mercancías excedentes o no declaradas embargadas a maquiladoras y empresas con programas de exportación autorizados por la Secretaría de Economía, cuando dentro de los diez días siguientes a la notificación del acta a que se refiere este artículo, el interesado presente escrito en el que manifieste su consentimiento con el contenido del acta, la autoridad aduanera que hubiera iniciado el procedimiento podrá emitir una resolución provisional en la que determine las contribuciones y cuotas compensatorias omitidas y las sanciones que procedan. Cuando el interesado en un plazo de cinco días a partir de que surta efectos la notificación de la resolución provisional acredite el pago de las contribuciones, accesorios y multas correspondientes y, en su caso, el cumplimiento de las regulaciones y restricciones no arancelarias, la autoridad aduanera ordenará la devolución de las mercancías.\n\nPara efectos de la fracción IV del artículo 151 de la Ley Aduanera, cuando con motivo del reconocimiento aduanero, o de la verificación de mercancía en transporte, se detecte mercancía no declarada o excedente en más de un 10% del valor total declarado en la documentación aduanera que ampare las mercancías, siempre que no se actualice alguno de los otros supuestos de embargo precautorio a que se refiere el artículo 151 de la Ley, cuando dentro de los diez días siguientes a la notificación del acta a que se refiere el artículo 150 de la Ley, el interesado presente escrito en el que manifieste su consentimiento con el contenido del acta, la autoridad aduanera que hubiera iniciado el procedimiento podrá emitir una resolución provisional en la que determine las contribuciones y cuotas compensatorias omitidas y las sanciones que procedan. Cuando el interesado en un plazo de cinco días a partir de que surta efectos la notificación de la resolución provisional acredite el pago de las contribuciones, accesorios y multas correspondientes, la autoridad aduanera ordenará la devolución de las mercancías."
@@ -4171,6 +4268,18 @@
      "art": "151"
     },
     {
+     "ord": "CFF",
+     "art": "123"
+    },
+    {
+     "ord": "CFF",
+     "art": "130"
+    },
+    {
+     "ord": "CFF",
+     "art": "46-A"
+    },
+    {
      "ord": "LA",
      "art": "152"
     },
@@ -4215,6 +4324,14 @@
     {
      "ord": "LA",
      "art": "151"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "58"
     }
    ],
    "texto": "ARTICULO 157. Tratándose de mercancías perecederas, de fácil descomposición o deterioro, de animales vivos, explosivas, inflamables, corrosivas, contaminantes, radiactivas o radioactivas, que sean objeto de embargo precautorio y que, dentro de los diez días siguientes a su embargo, no se hubiere comprobado su legal estancia o tenencia en el país, las autoridades aduaneras podrán proceder a su destrucción, donación o asignación. Tratándose de vehículos automotores, aeronaves y embarcaciones serán transferidos para su venta a la autoridad competente para su administración y destino conforme a lo previsto en la Ley Federal para la Administración y Enajenación de Bienes del Sector Público, una vez emitida la resolución que ponga fin al procedimiento administrativo de que se trate, siempre que no se hubiere comprobado su legal estancia o tenencia en el país.\n\nRespecto de las mercancías embargadas conforme al artículo 151, fracciones VI y VII de esta Ley, si dentro de los diez días siguientes a su embargo, no se hubieran desvirtuado los supuestos que hayan dado lugar al embargo precautorio o no se hubiera acreditado que el valor declarado fue determinado de conformidad con el Título Tercero, Capítulo III, Sección Primera de esta Ley, según sea el caso, se procederá a su destrucción, donación, asignación o transferencia para venta.\n\nCuando una resolución definitiva ordene la devolución de las mercancías y la autoridad aduanera haya comunicado al particular que existe imposibilidad para devolver las mismas, el particular podrá optar por solicitar la entrega de un bien sustituto con valor similar, o el valor del bien, actualizado conforme lo establece el párrafo siguiente. No procederá la entrega de un bien sustituto tratándose de mercancías perecederas, de fácil descomposición o deterioro, explosivas, inflamables, corrosivas, contaminantes, radiactivas o radioactivas, de animales vivos, o de las mercancías embargadas en términos del artículo 151, fracciones VI y VII de esta Ley.\n\nEn el caso de que las autoridades aduaneras o la autoridad competente para administrar y dar destino a dichas mercancías de conformidad con la Ley Federal para la Administración y Enajenación de Bienes del Sector Público, hayan procedido a la destrucción, donación o asignación de mercancías, la resolución definitiva que ordene la devolución de las mismas, considerará el valor determinado en el dictamen de clasificación arancelaria y de valor en aduana, practicado por la autoridad aduanera competente con motivo del procedimiento administrativo en materia aduanera, actualizándolo en los términos establecidos en el artículo 17-A del Código Fiscal de la Federación, a partir de la fecha en la que el particular haya obtenido una resolución administrativa o judicial firme, donde se le reconozca el derecho a obtener el pago del valor de las mercancías embargadas, hasta que se dicte la resolución correspondiente. El cálculo para la determinación del pago, deberá efectuarse hasta que se dicte la resolución correspondiente.\n\nTratándose de mercancías enajenadas por la autoridad competente para administrar y dar destino a dichas mercancías de conformidad con la Ley Federal para la Administración y Enajenación de Bienes del Sector Público, la resolución definitiva que ordene la devolución de las mismas, considerará el valor obtenido por la venta, de conformidad con lo establecido en la Ley Federal para la Administración y Enajenación de Bienes del Sector Público. El cálculo para la determinación del pago, deberá efectuarse hasta que se dicte la resolución correspondiente.\n\nEl particular que obtenga una resolución administrativa o judicial firme, que ordene la devolución o el pago del valor de la mercancía o, en su caso, que declare la nulidad de la resolución que determinó que la mercancía pasó a propiedad del Fisco Federal, y acredite mediante documento idóneo tener un derecho subjetivo legítimamente reconocido sobre los bienes, podrá solicitar al Servicio de Administración Tributaria la devolución de la mercancía, o en su caso, el pago del valor de la mercancía, dentro del plazo de dos años, contados a partir de que la resolución o sentencia haya causado ejecutoria.\n\nCuando la persona que obtenga una resolución administrativa o judicial firme, de manera excepcional sea distinta a quien acredite tener el derecho subjetivo legítimamente reconocido sobre los bienes, ambos deberán solicitar el resarcimiento en forma conjunta, designando a una de ellas de común acuerdo como el titular del derecho.\n\nTratándose de mercancías embargadas en términos del artículo 151, fracciones VI y VII de esta Ley, la resolución definitiva que ordene la devolución del valor de las mercancías, considerará el valor declarado en el pedimento, adicionado con el coeficiente de utilidad a que se refiere el artículo 58 del Código Fiscal de la Federación, que corresponda conforme al giro de actividades del interesado."
@@ -4395,6 +4512,10 @@
      "art": "68"
     },
     {
+     "ord": "CFF",
+     "art": "69-B"
+    },
+    {
      "ord": "LA",
      "art": "59"
     },
@@ -4484,6 +4605,10 @@
     {
      "ord": "LA",
      "art": "162"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-H"
     }
    ],
    "texto": "ARTICULO 164. El agente aduanal será suspendido en el ejercicio de sus funciones hasta por noventa días, o por el plazo que resulte en los términos de las fracciones I, V, X y XI de este artículo, por las siguientes causas:\n\nI.\tEncontrarse investigado penalmente o vinculado a proceso por haber participado en la comisión de delitos fiscales o la comisión de otro delito cuya media aritmética de la pena de prisión exceda de cinco años, o privado de su libertad cuando esté sujeto a un procedimiento penal por la comisión de otro delito que amerite pena corporal. La suspensión durará el tiempo que el agente aduanal se encuentre investigado penalmente o esté vinculado a proceso penal por la comisión de delitos fiscales o privado de su libertad.\n\nII.\tDejar de cumplir con el encargo que se le hubiere conferido, así como transferir o endosar documentos a su consignación, sin autorización escrita de su mandante, salvo en el caso de corresponsalías entre agentes aduanales.\n\nIII.\tDerogada.\n\nIV. \t(Se deroga).\n\nV.\tAsumir los cargos a que se refiere el artículo 159, fracción IV, salvo que haya obtenido con anterioridad la autorización de suspensión de actividades. En este caso, la suspensión será por el tiempo que subsista la causa que la motivó.\n\nVI.\tCuando en la operación aduanera que promueva se omita el pago de las contribuciones que se causen o cuotas compensatorias, siempre que no sean aplicables las causales de cancelación establecidas en la fracción II del artículo 165 de esta Ley.\n\nVII.\tTratándose de los regímenes aduaneros temporales, de depósito fiscal, de tránsito de mercancías y recinto fiscalizado estratégico, declarar con inexactitud algún dato, siempre que con los datos aportados, excluida la liquidación provisional a que se refieren los artículos 127, fracción II y 131, fracción II de esta Ley, de haberse destinado la mercancía de que se trate al régimen de importación definitiva, la omisión no exceda de $262,210.00.\nCantidad de la fracción actualizada DOF 01-03-2002, 28-04-2003, 04-04-2005, 10-04-2006, 09-05-2007, 09-05-2008, 12-05-2009,\n01-07-2010, 03-08-2011, 27-12-2011, 29-12-2014, 22-12-2017, 24-12-2020, 24-12-2021, 27-12-2022, 28-12-2023, 30-12-2024,\n27-12-2025\n\nVIII.\tCuando se incumpla con las disposiciones que regulen el régimen aduanero que determine, relacionadas con sus obligaciones y responsabilidades.\n\nIX.\tNo cumplir con las obligaciones previstas en el artículo 162 de esta Ley.\n\nX.\tSe encuentre en los listados de contribuyentes publicados por el Servicio de Administración Tributaria a que se refieren los artículos:\n\na)\t69 del Código Fiscal de la Federación, con excepción de la fracción VI;\n\nb)\t69-B, cuarto párrafo del Código Fiscal de la Federación, o\n\nc)\t69-B Bis, noveno párrafo del Código Fiscal de la Federación.\n\nLa suspensión durará el tiempo que el agente aduanal se encuentre en los referidos listados.\n\nXI.\tNo cuente con certificados de sellos digitales vigentes, o se ubique en alguno de los supuestos señalados en los artículos 17-H o 17-H Bis del Código Fiscal de la Federación. La suspensión durará hasta en tanto el agente aduanal cuente con los referidos certificados, o bien, deje de ubicarse en los referidos supuestos.\n\nXII.\tCuando en el despacho aduanero que promueva, no exista omisión en el pago de contribuciones y cuotas compensatorias, y se determine el pago de multas que sean equivalentes o excedan al 70% del valor comercial de la mercancía.\n\nXIII.\tCuente con créditos fiscales determinados no firmes, que no se encuentren pagados o garantizados en alguna de las formas permitidas por el Código Fiscal de la Federación.\n\nEn todo caso de suspensión, el afectado no podrá iniciar nuevas operaciones, sino solamente concluir las que tuviera ya iniciadas a la fecha en que le sea notificado el acuerdo respectivo."
@@ -4533,6 +4658,10 @@
     {
      "ord": "LA",
      "art": "127"
+    },
+    {
+     "ord": "CFF",
+     "art": "104"
     }
    ],
    "texto": "ARTICULO 165. Será cancelada la patente de agente aduanal, independientemente de las sanciones que procedan por las infracciones cometidas, por las siguientes causas:\n\nI.\tDerogada.\n\nII.\tCuando con motivo del reconocimiento aduanero, de la verificación de mercancías en transporte o por el ejercicio de las facultades de comprobación, se dé alguno de los siguientes supuestos:\n\na)\tLa omisión en el pago de impuestos al comercio exterior, las demás contribuciones y cuotas compensatorias, en su caso, exceda de $374,610.00 y dicha omisión represente más del 10% del total de los que debieron pagarse.\nCantidad del inciso actualizada DOF 01-03-2002, 28-04-2003, 04-04-2005, 10-04-2006, 09-05-2007, 09-05-2008, 12-05-2009,\n01-07-2010, 03-08-2011, 27-12-2011, 29-12-2014, 22-12-2017, 24-12-2020, 24-12-2021, 27-12-2022, 28-12-2023, 30-12-2024,\n27-12-2025\n\nb)\tEfectuar los trámites del despacho aduanero sin el permiso de las autoridades competentes, sin contar con la asignación del cupo de las mismas, o sin cumplir cualquier otra regulación o restricción no arancelaria emitidas conforme a la Ley de Comercio Exterior, cuando se requiera, o sin realizar el descargo total o parcial sobre el permiso o cupo antes de activar el mecanismo de selección automatizado.\n\nc)\tSe trate de mercancía de importación o exportación prohibida.\n\nIII.\tCuando el agente aduanal, al tramitar las operaciones de comercio exterior, declare datos del importador o exportador o de las operaciones y éstos resulten falsos o inexistentes.\n\nDe igual forma, será cancelada la patente si el agente aduanal efectúa el trámite de las operaciones de comercio exterior y declara los datos a que se refiere el párrafo anterior de una persona de la cual no cuente con el encargo conferido en términos del artículo 59, fracción III de esta Ley.\n\nIV. \t(Se deroga).\n\nV.\tSer condenado en sentencia definitiva por haber participado en la comisión de delitos fiscales o de otros delitos que ameriten pena corporal. En este caso no se podrá solicitar nuevamente la autorización para obtener una patente de agente aduanal.\n\nVI.\tPermitir el uso de cualesquiera de los derechos consignados en la patente o de la patente misma, por un tercero, salvo que se trate de la agencia aduanal a la que se encuentre adscrito.\n\nVII.\tTratándose de los regímenes aduaneros temporales, de depósito fiscal, de tránsito de mercancías y recinto fiscalizado estratégico, declarar con inexactitud algún dato, siempre que con los datos aportados, excluida la liquidación provisional a que se refieren los artículos 127, fracción II y 131, fracción II de esta Ley, de haberse destinado la mercancía de que se trate al régimen de importación definitiva, se dé alguno de los siguientes supuestos:\n\na)\tLa omisión exceda de $374,610.00 y del 10% de los impuestos al comercio exterior, las demás contribuciones y, en su caso, cuotas compensatorias causadas.\nCantidad del inciso actualizada DOF 01-03-2002, 28-04-2003, 04-04-2005, 10-04-2006, 09-05-2007, 09-05-2008, 12-05-2009,\n01-07-2010, 03-08-2011, 27-12-2011, 29-12-2014, 22-12-2017, 24-12-2020, 24-12-2021, 27-12-2022, 28-12-2023, 30-12-2024,\n27-12-2025\n\nb)\tEfectuar los trámites del despacho sin el permiso de las autoridades competentes, sin contar con la asignación del cupo de las mismas o sin cumplir cualquier otra regulación o restricción no arancelaria emitidas conforme a la Ley de Comercio Exterior, cuando se requieran, o sin realizar el descargo total o parcial sobre el permiso o cupo antes de activar el mecanismo de selección automatizado.\n\nc)\tSe trate de mercancías de importación o exportación prohibida.\n\nVIII.\tCuente con créditos fiscales determinados, firmes, que no se encuentren pagados o garantizados en alguna de las formas permitidas por el Código Fiscal de la Federación.\n\nIX.\tTransmitir bajo cualquier título, el uso o goce de la patente o de los derechos consignados en la misma, salvo lo previsto para las agencias aduanales.\n\nX. \tEfectuar los trámites del despacho aduanero, a un importador o exportador, que no se encuentre inscrito en el Padrón de Importadores y, en su caso, en el Padrón de Importadores de Sectores Específicos o en el Padrón de Exportadores Sectorial, cuando se requiera de dicha inscripción.\n\nXI. \tDeclarar en el pedimento, sus anexos, o en el aviso consolidado tratándose de operaciones con pedimento consolidado, un valor en aduana que sea distinto al proporcionado por el importador o exportador.\n\nXII.\tEncontrarse dentro de los supuestos de cancelación a que se refiere la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita.\n\nXIII.\tCuando promuevan el despacho de mercancías manifestando el nombre, domicilio o la clave del registro federal de contribuyentes de una persona que no le hubiera encargado la operación o el despacho de las mercancías.\n\nXIV.\tCuando se actualice el supuesto establecido en el artículo 104, último párrafo del Código Fiscal de la Federación. En este supuesto, no se podrá solicitar nuevamente la autorización para obtener una patente de agente aduanal.\n\nXV.\tTratándose de los regímenes aduaneros de importación temporal de depósito fiscal, de tránsito, de recinto fiscalizado y de recinto fiscalizado estratégico, cuando efectúe los trámites del despacho aduanero de mercancías no permitidas para destinarse a dichos regímenes.\n\nXVI.\tTratándose de los regímenes aduaneros de importación temporal de mercancías para retornar al extranjero después de haberse destinado a un proceso de elaboración, transformación o reparación, cuando efectúe los trámites del despacho aduanero y dichas mercancías no correspondan a insumos para llevar a cabo los referidos procesos, o bien, cuando corresponda a mercancía terminada que no se someterá a dichos procesos.\n\nXVII.\tEfectuar, en más de dos ocasiones en un mismo ejercicio fiscal, los trámites del despacho aduanero de mercancías que no correspondan al programa de exportación autorizado por la Secretaría de Economía y, en su caso, al registro otorgado al importador, en términos de los artículos 28-A, primer párrafo de la Ley del Impuesto al Valor Agregado, 15-A, primer párrafo de la Ley del Impuesto Especial sobre Producción y Servicios y 100-A de esta Ley, así como de las reglas emitidas por el Servicio de Administración Tributaria.\n\nXVIII.\tCuando se encuentre como no localizado en su domicilio fiscal o el estatus de este sea inexistente.\n\nXIX.\tCuando haya sido suspendida su patente más de dos veces en el plazo de tres años.\n\nA partir de la fecha en que se notifique a los clientes de asuntos inconclusos la cancelación de la patente, se interrumpirán por treinta días los plazos legales que estuvieren corriendo."
@@ -4750,6 +4879,10 @@
     {
      "ord": "LA",
      "art": "127"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-H"
     }
    ],
    "texto": "ARTICULO 167-G. La agencia aduanal será inhabilitada para operar, cuando:\n\nI.\tSe incumpla lo previsto en las fracciones VI, VII y VIII del artículo 167-F de esta Ley.\n\nII.\tSe incumpla con lo dispuesto en las fracciones I, II, III, IV, V, IX y X del artículo 167-F de esta Ley, en cuyo caso la inhabilitación aplicará desde el inicio del procedimiento hasta en tanto no se cumpla con el requisito correspondiente.\n\nIII.\tSe omita el pago de las contribuciones o cuotas compensatorias, en el despacho aduanero que promueva, siempre que no sea aplicable la causal de cancelación establecida en la fracción VI del artículo 167-J, en relación con la fracción II del artículo 165 de esta Ley.\n\nIV.\tTratándose de los regímenes aduaneros temporales, de depósito fiscal, de tránsito de mercancías y de recinto fiscalizado estratégico, declarar con inexactitud algún dato, siempre que, con los datos aportados, excluida la liquidación provisional a que se refieren los artículos 127, fracción II y 131, fracción II de esta Ley, de haberse destinado la mercancía de que se trate al régimen de importación definitiva, la omisión no exceda de $241,620.00.\nCantidad de la fracción actualizada DOF 24-12-2021, 27-12-2022, 28-12-2023, 30-12-2024\nCantidad de la fracción actualizada DOF 27-12-2025\n\nV.\tLa agencia, sus socios o accionistas, se encuentren en los listados de contribuyentes publicados por el Servicio de Administración Tributaria a que se refieren los artículos:\n\na)\t69 del Código Fiscal de la Federación, con excepción de la fracción VI;\n\nb)\t69-B, cuarto párrafo del Código Fiscal de la Federación, o\n\nc)\t69-B Bis, noveno párrafo del Código Fiscal de la Federación.\n\nVI.\tLa agencia, sus socios o accionistas, no cuenten con certificados de sellos digitales vigentes, o se ubiquen en alguno de los supuestos señalados en los artículos 17-H o 17-H Bis del Código Fiscal de la Federación.\n\nPara efectos de las fracciones I, III y IV del presente artículo, se inhabilitará a la agencia aduanal para operar desde el inicio del procedimiento, hasta por un mes.\n\nPara efectos de lo dispuesto en las fracciones III y IV del presente artículo, cuando la agencia aduanal se integre con diversos agentes aduanales, sólo procederá la inhabilitación de la patente del agente aduanal que hubiere intervenido en el despacho de la operación aduanera de la que deriva la causal, debiendo señalarse esta circunstancia en el inicio y resolución del procedimiento de inhabilitación, por lo que durante el tiempo que dure la misma, el agente aduanal se encontrará impedido para intervenir en las operaciones encargadas a la agencia aduanal, desde el inicio del procedimiento, hasta por un mes.\n\nPara efectos de las fracciones V y VI del presente artículo, se inhabilitará a la agencia aduanal para operar durante el tiempo que prevalezcan los supuestos señalados en las fracciones referidas.\n\nUna vez conocidos por las autoridades aduaneras los hechos u omisiones que las configuren, éstas los darán a conocer en forma circunstanciada a la agencia aduanal y le concederán un plazo de diez días hábiles, contados a partir del día siguiente en que surta efectos la notificación, para que exprese lo que a su derecho convenga y ofrezca pruebas. Las autoridades aduaneras deberán dictar la resolución que corresponda, en un plazo que no excederá de tres meses, contado a partir de la notificación del inicio del procedimiento. Transcurrido el plazo mencionado sin que la autoridad emita resolución, se entenderá caducado el procedimiento respectivo, sin perjuicio del ejercicio posterior de las facultades de las autoridades aduaneras."
@@ -6008,7 +6141,7 @@
      "art": "106"
     },
     {
-     "ord": "LA",
+     "ord": "CFF",
      "art": "33"
     },
     {

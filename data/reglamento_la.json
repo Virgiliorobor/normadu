@@ -83,6 +83,10 @@
     {
      "ord": "LA",
      "art": "3"
+    },
+    {
+     "ord": "CFF",
+     "art": "196-A"
     }
    ],
    "texto": "Artículo 4. Para efectos del artículo 3o., segundo párrafo de la Ley, cuando las autoridades distintas de las aduaneras pongan a disposición de las Autoridades Aduaneras Mercancías relacionadas con la probable comisión de infracciones a la Ley, a fin de ejercer las facultades de comprobación, éstas procederán a la recepción de las Mercancías, previa entrega de las mismas en el recinto fiscal.\n\nLa recepción a que se refiere el párrafo anterior, deberá contener:\n\nI.\tLos antecedentes relacionados con la entrega de los bienes por parte de la autoridad distinta de la aduanera, esto es, copia de las actas, oficios u otros documentos en los que consten los hechos y circunstancias sobre los que versa la presunta infracción a la Ley y su denuncia;\n\nII.\tActa que incluya las condiciones físicas e inventario de los bienes que se entregan, y\n\nIII.\tLa información de la identificación del propietario o poseedor de los bienes que se entregan, incluyendo su ubicación o domicilio.\n\nTratándose de Mercancías sujetas a aseguramiento por parte de la autoridad ministerial y demás autoridades competentes o a proceso penal, la Autoridad Aduanera no podrá recibir los bienes.\n\nLa Autoridad Aduanera notificará al presunto propietario o poseedor de las Mercancías, en un plazo de diez días a partir de la recepción de las mismas, por correo certificado con acuse de recibo en el domicilio a que se refiere la fracción III de este artículo, que cuenta con quince días, a partir de la recepción de la notificación, para retirar las mismas, previa comprobación de su legal propiedad o posesión, así como estancia o importación. Transcurrido el plazo establecido sin que se retiren las Mercancías, comenzará a correr el plazo correspondiente para el abandono de las Mercancías a favor del Fisco Federal por falta de su retiro, en términos del artículo 196-A, fracción IV del Código Fiscal de la Federación. En el supuesto de que no se hubiera señalado domicilio o el señalado no corresponda al presunto propietario o poseedor de las Mercancías en cuestión, la notificación se efectuará por estrados.\n\nEl destino de las Mercancías que pasen a propiedad del Fisco Federal, se determinará conforme a lo dispuesto en la Ley y en la Ley Federal para la Administración y Enajenación de Bienes del Sector Público, según corresponda."
@@ -125,6 +129,10 @@
     {
      "ord": "LA",
      "art": "36"
+    },
+    {
+     "ord": "CFF",
+     "art": "29"
     }
    ],
    "texto": "Artículo 6. Para efectos de los artículos 6o. y 36 de la Ley, las personas que deban transmitir o presentar al Sistema Electrónico Aduanero el Documento Electrónico o Digital, incluso el Pedimento, podrán utilizar el sello digital a que se refiere el artículo 29 del Código Fiscal de la Federación, o cualquier medio tecnológico de identificación autorizado por el SAT mediante disposiciones de carácter general, el cual estará sujeto a las disposiciones jurídicas aplicables a la firma electrónica avanzada.\n\nEl titular de un sello digital o medio tecnológico de identificación autorizado por el SAT mediante disposiciones de carácter general, que se utilice para la transmisión o presentación de un Documento Electrónico o Digital, será responsable del uso que se haga del mismo, así como de las consecuencias jurídicas que se deriven de dicho uso, por lo que deberá solicitar su revocación ante cualquier circunstancia que ponga en riesgo su privacidad o confidencialidad o cuando la firma electrónica avanzada se revoque o cancele.\n\nLo anterior, aplica al uso de cualquier medio tecnológico de identificación autorizado por el SAT mediante disposiciones de carácter general que se implemente en el Sistema Electrónico Aduanero, en los términos y condiciones que se establezcan mediante Reglas."
@@ -394,6 +402,14 @@
     {
      "ord": "LA",
      "art": "15"
+    },
+    {
+     "ord": "CFF",
+     "art": "18"
+    },
+    {
+     "ord": "CFF",
+     "art": "19"
     }
    ],
    "texto": "Artículo 15. Para efectos del artículo 20, último párrafo, de la Ley, las empresas porteadoras deberán llevar a cabo la designación ante la Autoridad Aduanera de su representante en territorio nacional, conforme a lo siguiente:\n\nI.\tPresentar una promoción formulada en términos de los artículos 18 y 19 del Código Fiscal de la Federación, en la que se señale el nombramiento del representante y el domicilio para oír y recibir notificaciones en territorio nacional, anexando copia certificada de la escritura pública en la que conste el poder para actos de administración otorgado a favor del representante, y\n\nII.\tSolicitar la inscripción de la designación del representante en el registro correspondiente.\n\nAdicionalmente, las empresas porteadoras o sus representantes, podrán autorizar ante la Autoridad Aduanera a personas para que a su nombre puedan oír y recibir notificaciones, siempre que cumplan con los requisitos que se establezcan mediante Reglas."
@@ -842,6 +858,18 @@
     {
      "ord": "LA",
      "art": "88-bis"
+    },
+    {
+     "ord": "CFF",
+     "art": "49"
+    },
+    {
+     "ord": "CFF",
+     "art": "69"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-H"
     }
    ],
    "texto": "Artículo 38-B. Se podrán establecer mediante Reglas facilidades en la presentación del trámite relativo a la prórroga de la autorización a que se refiere el artículo 88 bis, cuarto párrafo, de la Ley.\n\nLas facilidades a que se refiere el párrafo anterior serán aplicables únicamente si los interesados cumplen con los siguientes requisitos:\n\nI.\tEstar al corriente en el cumplimiento de sus obligaciones fiscales;\n\nII.\tNo se le haya emitido y notificado la resolución que determine que emite falsos comprobantes fiscales, en términos del artículo 49 Bis del Código Fiscal de la Federación;\n\nIII.\tNo encontrarse en el listado de empresas publicadas por el SAT conforme a los artículos 69, con excepción de la fracción VI, 69-B, cuarto párrafo, y 69-B Bis, noveno párrafo, del Código Fiscal de la Federación;\n\nIV.\tContar con certificados de sellos digitales vigentes y no encontrarse en alguno de los supuestos establecidos en los artículos 17-H y 17-H Bis del Código Fiscal de la Federación, durante los doce meses inmediatos anteriores a la fecha de presentación de la solicitud, y\n\nV.\tLas demás que se establezcan mediante Reglas."
@@ -1277,7 +1305,12 @@
    "notas_reforma": [
     "Párrafo reformado DOF 23-02-2026"
    ],
-   "referencias": [],
+   "referencias": [
+    {
+     "ord": "CFF",
+     "art": "17-A"
+    }
+   ],
    "texto": "Artículo 61. Cuando proceda el pago del valor de las Mercancías que se extraviaron en recintos fiscales, se actualizará el valor que corresponda a las mismas, desde la fecha en que la Mercancía ingresó en depósito ante la aduana hasta la fecha en que se dicte la resolución correspondiente, de conformidad con el artículo 17-A del Código Fiscal de la Federación. Se considerará que las Mercancías quedaron en depósito ante la aduana desde la fecha en que ingresaron al recinto fiscal.\n\nEn la resolución que se dicte, se deberá precisar los datos relativos a la fecha del escrito de solicitud, la descripción de las Mercancías, su valor de acuerdo al comprobante fiscal digital por Internet o documento equivalente, o bien, al documento de transporte presentado, la cantidad total que corresponda a las Mercancías, su actualización correspondiente, así como el monto total a pagar.\n\nDicha resolución se deberá notificar personalmente al particular y se deberá remitir una copia autógrafa de la misma a la autoridad competente, acompañada de los documentos en los que se acredite el extravío de las Mercancías en un recinto fiscal y bajo custodia de las Autoridades Aduaneras."
   },
   {
@@ -1297,6 +1330,14 @@
     {
      "ord": "LA",
      "art": "62"
+    },
+    {
+     "ord": "LA",
+     "art": "14"
+    },
+    {
+     "ord": "LA",
+     "art": "14-A"
     }
    ],
    "texto": "Artículo 62. Para efectos del artículo 32, último párrafo, de la Ley, las personas que presten los servicios señalados en los artículos 14 y 14-A de la Ley deberán presentar el aviso de destrucción ante la Autoridad Aduanera competente en cuya circunscripción territorial se encuentre el recinto fiscalizado, con cinco días de anticipación a que se lleve a cabo la misma.\n\nEfectuada la destrucción a que se refiere el párrafo anterior se deberá levantar el acta de hechos en la que se hará constar la descripción de la Mercancía destruida y el procedimiento que se realizó para su destrucción. Dicha acta será levantada por personal adscrito a la aduana que corresponda al lugar donde se encuentren las Mercancías o, en su ausencia, por el personal del recinto fiscalizado, de conformidad con las Reglas que para tal efecto emita el SAT."
@@ -1319,6 +1360,10 @@
     {
      "ord": "LA",
      "art": "63"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-A"
     }
    ],
    "texto": "Artículo 63. Para efectos de lo dispuesto por el artículo 34 de la Ley, los interesados deberán presentar solicitud de indemnización, anexando la siguiente documentación:\n\nI.\tEl comprobante fiscal digital por Internet o documento equivalente, o bien, el documento de transporte, que ampare el valor de las Mercancías;\n\nII.\tDocumento con el cual se acredite la propiedad de las Mercancías, y\n\nIII.\tComprobante del recinto fiscal expedido cuando las Mercancías ingresaron al mismo.\n\nCuando proceda la devolución del valor de las Mercancías a que se refiere este artículo, se deberá actualizar dicho valor, desde la fecha en que se efectuó la asignación, destrucción o donación del bien que corresponda hasta la fecha en que se dicte la resolución por parte de la Autoridad Aduanera de la procedencia de la devolución, de conformidad con lo dispuesto en el artículo 17-A del Código Fiscal de la Federación.\n\nLa indemnización consistirá en entregar al interesado el valor de las Mercancías objeto de la asignación, destrucción o donación, de conformidad con los documentos a que se refiere la fracción I de este artículo."
@@ -1814,6 +1859,10 @@
     {
      "ord": "LA",
      "art": "59"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     }
    ],
    "texto": "Artículo 82. Para inscribirse en el Padrón de Importadores a que se refiere el artículo 59, fracción IV de la Ley, los interesados deberán presentar ante la Autoridad Aduanera solicitud cumpliendo con los siguientes requisitos:\n\nI.\tEstar inscrito y activo en el registro federal de contribuyentes;\n\nII.\tContar con firma electrónica avanzada vigente;\n\nIII.\tPresentar la constancia de cumplimiento de las obligaciones fiscales, prevista en el artículo 32-D del Código Fiscal de la Federación, y\n\nIV.\tLos demás requisitos establecidos en las Reglas que al efecto emita el SAT.\n\nPara inscribirse en el Padrón de Importadores de Sectores Específicos, además de cumplir con lo previsto en el párrafo anterior, deberán:\n\nI.\tEstar inscrito y activo en el Padrón de Importadores, y\n\nII.\tAcreditar los requisitos y anexar los documentos que señale el SAT mediante Reglas, según se trate, del sector específico solicitado.\n\nLa autoridad aduanera resolverá la solicitud de inscripción en el Padrón de Importadores y en el Padrón de Importadores de Sectores Específicos en un plazo de diez días contado a partir del día siguiente al de la recepción de la solicitud respectiva."
@@ -1913,6 +1962,10 @@
     {
      "ord": "LA",
      "art": "87"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     },
     {
      "ord": "LA",
@@ -2809,6 +2862,10 @@
    "referencias": [
     {
      "ord": "LA",
+     "art": "134"
+    },
+    {
+     "ord": "LA",
      "art": "86"
     }
    ],
@@ -2967,6 +3024,10 @@
     {
      "ord": "LA",
      "art": "36-A"
+    },
+    {
+     "ord": "CFF",
+     "art": "17-A"
     }
    ],
    "texto": "Artículo 140. Para efectos del artículo 93, párrafo tercero de la Ley, para proceder a realizar el cambio de régimen de importación temporal a definitiva se observará lo siguiente:\n\nI.\tTramitar el Pedimento respectivo en los términos de los artículos 36 y 36-A de la Ley;\n\nII.\tLas regulaciones y restricciones no arancelarias y prohibiciones aplicables serán las que rijan en la fecha de cambio de régimen;\n\nIII.\tPagar las contribuciones y cuotas compensatorias que correspondan, en términos de las disposiciones legales aplicables, considerando el valor en aduana declarado en el Pedimento con el que la Mercancía ingresó al país.\n\nPara el cálculo del pago previsto en el párrafo anterior, se deberá considerar la actualización del impuesto general de importación, de las cuotas compensatorias y de las demás contribuciones que correspondan, en términos del artículo 17-A del Código Fiscal de la Federación, a partir del mes en que las Mercancías ingresaron temporalmente al país y hasta que se efectúe el cambio de régimen, y\n\nIV.\tLo demás que establezca el SAT mediante Reglas.\n\nPara efectos de lo dispuesto en el presente artículo, si el cambio de régimen se realiza una vez iniciadas las facultades de comprobación de la Autoridad Aduanera, será necesario que las Mercancías se encuentren físicamente en el domicilio señalado para efectos de la operación aduanera de que se trate, en caso de ser exigible conforme a la Ley."
@@ -3069,6 +3130,10 @@
     {
      "ord": "LA",
      "art": "144"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     }
    ],
    "texto": "Artículo 144. Para efectos del artículo 100, fracción II de la Ley, las empresas que hayan realizado importaciones con un valor superior a $175,395,050.00 en el ejercicio inmediato anterior a aquél en que soliciten su inscripción en el registro del despacho de Mercancías de las empresas, presentarán su solicitud ante la Autoridad Aduanera debiendo cumplir con lo siguiente:\nCantidad del párrafo actualizada por reglas generales de comercio exterior DOF 22-12-2017, 24-12-2020, 24-12-2021, 27-12-2022, 28-12-2023, 30-12-2024, 27-12-2025\n\nI.\tRealizar el pago del derecho que corresponda conforme a la Ley Federal de Derechos;\n\nII.\tAcreditar estar al corriente en el cumplimiento de obligaciones fiscales en términos de lo previsto en el artículo 32-D del Código Fiscal de la Federación, y\n\nIII.\tLo demás que establezca el SAT mediante Reglas.\n\nEl SAT podrá establecer montos diferentes al señalado en el párrafo anterior, considerando el tipo de actividad que realizan las empresas o en función del tipo de Mercancía que se importe."
@@ -3224,6 +3289,10 @@
     {
      "ord": "LA",
      "art": "152"
+    },
+    {
+     "ord": "CFF",
+     "art": "26"
     }
    ],
    "texto": "Artículo 152. Para realizar las importaciones a que se refiere el artículo 106, fracción II, inciso a) de la Ley, se deberán cumplir los siguientes requisitos:\n\nI.\tEl Pedimento de importación señalará el nombre de la persona residente en el extranjero y el de un Residente en Territorio Nacional. Adicionalmente, se deberá acompañar a dicho Pedimento la manifestación del Residente en Territorio Nacional de asumir la responsabilidad solidaria a que se refiere la fracción VIII del artículo 26 del Código Fiscal de la Federación, por los créditos fiscales que lleguen a derivarse por no retornar las Mercancías al extranjero dentro del plazo establecido en la Ley;\n\nII.\tLos residentes en el extranjero deberán tener relación laboral con quien utilizará los bienes importados temporalmente, salvo que sean utilizados por ellos mismos, y\n\nIII.\tLos residentes en el extranjero o los responsables solidarios, con anterioridad a que presenten el Pedimento, darán aviso a la Autoridad Aduanera que corresponda a la localidad en la cual se vayan a utilizar los bienes que se importen."
@@ -3437,6 +3506,10 @@
     {
      "ord": "LA",
      "art": "106"
+    },
+    {
+     "ord": "CFF",
+     "art": "26"
     }
    ],
    "texto": "Artículo 163. La importación temporal de Mercancías destinadas al mantenimiento y reparación de los bienes importados temporalmente al amparo del artículo 106, cuarto párrafo, de la Ley excepto automóviles y camiones, se podrá autorizar utilizando la forma oficial aprobada por el SAT, en la que se señalará:\n\nI.\tLos datos relativos al Pedimento o a la forma oficial utilizada para la importación temporal de los bienes objeto de mantenimiento o reparación, y\n\nII.\tLos números de serie, parte, marca, modelo o, en su defecto, las especificaciones técnicas o comerciales necesarias para identificar las Mercancías y distinguirlas de otras similares, cuando se trate de Mercancías susceptibles de ser identificadas individualmente y dichos datos existan.\n\nA la solicitud a que se refiere el presente artículo, se deberá anexar una carta del Residente en Territorio Nacional que tenga bajo su custodia las Mercancías, en la que de conformidad con lo establecido en el artículo 26, fracción VIII del Código Fiscal de la Federación, asuma la responsabilidad solidaria de los créditos que lleguen a derivarse, en caso de que éstas no sean retornadas al extranjero, destruidas o importadas en forma definitiva.\n\nLas Mercancías destinadas al mantenimiento y reparación de los bienes importados temporalmente a que se refiere este artículo, no deberán cumplir con la obligación de retorno. Aquellos equipos que por su naturaleza sean incorporados a dichos bienes, deberán retornar con los mismos.\n\nLas partes o refacciones reemplazadas por las Mercancías importadas temporalmente al amparo de este artículo, deberán ser retornadas, destruidas o importadas en forma definitiva."
@@ -4197,6 +4270,10 @@
     {
      "ord": "LA",
      "art": "198"
+    },
+    {
+     "ord": "CFF",
+     "art": "29-A"
     }
    ],
    "texto": "Artículo 198. Para efectos del artículo 62, fracción II, inciso b), segundo párrafo de la Ley, los Residentes en Territorio Nacional que hubieran importado vehículos a la franja o región fronteriza y que deseen internarlos temporalmente al resto del país, deberán cumplir los siguientes requisitos:\n\nI.\tSolicitar un permiso de internación temporal de vehículos en las aduanas fronterizas del territorio nacional;\n\nII.\tAcreditar que el vehículo se encuentra importado en forma definitiva a la franja o región fronteriza, mediante el Pedimento de importación correspondiente a nombre del interesado o, en su caso, mediante copia certificada del Pedimento a nombre del importador original y la factura o comprobante fiscal digital por Internet que cumpla con los requisitos previstos en el artículo 29-A del Código Fiscal de la Federación, si se trata de venta realizada en territorio nacional.\n\nSi la venta se efectuó entre particulares que no se encuentran obligados a expedir el comprobante fiscal digital por Internet o documento equivalente, se deberá exhibir el Pedimento respectivo a nombre del importador original endosado a su nombre o, en su caso, con continuidad en los endosos que acrediten que quien interna el vehículo es el último adquirente. Si el adquirente cuenta con financiamiento deberá exhibir el Pedimento a nombre del importador original y la carta de crédito o carta factura otorgada por la empresa o institución que esté financiando la compra;\n\nIII.\tAcreditar que residen en la franja o región fronteriza;\n\nIV.\tGarantizar al SAT el pago de los créditos fiscales que pudieran causarse por exceder los plazos autorizados para el retorno del vehículo o por la comisión de las infracciones previstas en la Ley en relación con la internación temporal, en los términos y condiciones que en su caso señale el SAT mediante Reglas;\n\nV.\tCubrir las cantidades que para los trámites de internación determine el SAT, y\n\nVI.\tDeclarar bajo protesta de decir verdad, que el interesado se compromete a retornar el vehículo de que se trate dentro del plazo autorizado y a no realizar actos u omisiones que configuren infracciones o delitos por el indebido uso o destino del mismo.\n\nPara registrar el retorno del vehículo internado temporalmente, y obtener el comprobante de dicho retorno, el interesado deberá presentarse con su vehículo en las aduanas fronterizas del territorio nacional."
@@ -4564,6 +4641,10 @@
     {
      "ord": "LA",
      "art": "215"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     }
    ],
    "texto": "Artículo 215. Para efectos de lo establecido en el artículo 160, fracción I de la Ley, el agente aduanal acreditará que está al corriente de sus obligaciones fiscales, mediante la constancia de cumplimiento de las obligaciones fiscales referida en el último párrafo del artículo 32-D del Código Fiscal de la Federación."
@@ -5140,6 +5221,10 @@
     {
      "ord": "LA",
      "art": "167-D"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     }
    ],
    "texto": "Artículo 235-J. Para efectos de lo establecido en el artículo 167-D, párrafos segundo, fracción VI, tercero, fracción III, y cuarto de la Ley, la agencia aduanal, los socios de la misma, el administrador o la persona o personas que tengan conferida la dirección general, la gerencia o la administración de la agencia aduanal, cualquiera que sea el nombre con el que se les designe, así como su apoderado legal, acreditarán que están al corriente de sus obligaciones fiscales, mediante la constancia de cumplimiento de las obligaciones fiscales referida en el último párrafo del artículo 32-D del Código Fiscal de la Federación."
@@ -5178,6 +5263,10 @@
     {
      "ord": "LA",
      "art": "40"
+    },
+    {
+     "ord": "CFF",
+     "art": "32-D"
     }
    ],
    "texto": "Artículo 236. Las personas morales que promuevan el despacho aduanero de Mercancías sin la intervención de un agente aduanal o agencia aduanal deberán acreditar ante las Autoridades Aduaneras a su representante legal para efectos de su actuación, quien deberá cumplir, además de lo previsto en el artículo 40 de la Ley, con lo siguiente:\n\nI.\tAcreditar, mediante documento certificado, ser de nacionalidad mexicana;\n\nII.\tContar con poder notarial en el que se le confieran facultades para llevar a cabo el despacho aduanero de Mercancías, y los actos que deriven de aquél;\n\nIII.\tAcreditar la existencia de la relación laboral con el importador o exportador, en términos de la legislación nacional;\n\nIV.\tAcreditar tener experiencia o conocimientos en comercio exterior con cualquiera de los documentos siguientes:\n\na)\tTítulo profesional expedido o su equivalente en los términos de la ley de la materia, o cédula profesional expedida por la Secretaría de Educación Pública;\n\nb)\tCertificado en materia de comercio exterior o aduanal emitida por el Consejo Nacional de Normalización y Certificación de Competencias Laborales;\n\nc)\tDocumento expedido por la Autoridad Aduanera que compruebe haber acreditado el examen de conocimientos y práctico en materia de comercio exterior o aduanal;\n\nd)\tDocumento con el que acredite haber tenido la calidad de apoderado aduanal, por un tiempo mínimo de un año;\n\ne)\tDocumento con el que acredite haber tenido la calidad de mandatario aduanal o dependiente de agente aduanal o agencia aduanal, o ex servidor público de la Autoridad Aduanera que haya tenido como adscripción cualquiera de las aduanas del país o cualquiera de las oficinas centrales, por un tiempo mínimo de un año. En este último caso siempre que haya transcurrido un año del último empleo, cargo o comisión en términos de lo previsto en la Ley General de Responsabilidades Administrativas, y\n\nf)\tConstancia expedida por alguna empresa que habitualmente realice operaciones de comercio exterior con la que acredite haber ocupado puestos operativos relacionados con el área, por un tiempo mínimo de un año;\n\nV.\tEstar inscrito y activo en el registro federal de contribuyentes;\n\nVI.\tContar con firma electrónica avanzada o, en su caso, sello digital vigente;\n\nVII.\tEstar al corriente en el cumplimiento de sus obligaciones fiscales mediante la constancia de cumplimiento a que se refiere el artículo 32-D del Código Fiscal de la Federación;\n\nVIII.\tNo estar condenado en sentencia definitiva por haber participado en la comisión de delitos fiscales o de otros delitos intencionales que ameriten pena corporal, y\n\nIX.\tAcreditar las demás condiciones que establezca el SAT mediante disposiciones jurídicas aplicables.\n\nLo previsto en este artículo será aplicable para el representante legal de las personas físicas, cuando éstas promuevan el despacho aduanero de Mercancías sin la intervención de un agente aduanal o agencia aduanal a través de dicho representante."
