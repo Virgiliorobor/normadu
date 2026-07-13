@@ -29,7 +29,7 @@ REF_REGLA = re.compile(
     r"(\s+de\s+las\s+RGCE|\s+de\s+la\s+RMF)?",
     re.IGNORECASE,
 )
-REF_ANEXO = re.compile(r"Anexo\s+(22|24)\b(?!\s*\.\d)", re.IGNORECASE)
+REF_ANEXO = re.compile(r"Anexo\s+(22|24|30)\b(?!\s*\.\d)", re.IGNORECASE)
 NUM_TOKEN = re.compile(NUM)
 
 

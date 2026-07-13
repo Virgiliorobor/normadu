@@ -212,7 +212,7 @@ function linkifica(html, ordId) {
       return pre + nums.replace(/\\d+\\.\\d+\\.\\d+/g, n =>
         IDX[dest + '-' + n] ? '<a class="refint" data-ir="' + dest + '-' + n + '">' + n + '</a>' : n);
     });
-  html = html.replace(/Anexo\\s+(22|24)\\b(?!\\s*\\.)/g, (m, n) =>
+  html = html.replace(/Anexo\\s+(22|24|30)\\b(?!\\s*\\.)/g, (m, n) =>
     IDX['RGCE-anexo-' + n] ? '<a class="refint" data-ir="RGCE-anexo-' + n + '">' + m + '</a>' : m);
   return html;
 }

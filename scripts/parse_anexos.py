@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
-"""Integra los Anexos 22 y 24 de las RGCE a data/rgce.json como entradas del índice.
+"""Integra los Anexos 22, 24 y 30 de las RGCE a data/rgce.json como entradas del índice.
 
 Anexo 22: instructivo de llenado del pedimento (bloques de campos) + 22 apéndices.
 Anexo 24: sistema de control de inventarios (apartados A, B y C).
+Anexo 30: Sistema de Control de Cuentas de Créditos y Garantías (SCCCyG).
 Correr DESPUÉS de parse_rgce.py y ANTES de aplicar_modificaciones.py.
 """
 import json
@@ -47,8 +48,13 @@ def main():
     idx23 = next(i for i, l in enumerate(lines) if l.strip().startswith("ANEXO 23 DE LAS"))
     idx24 = next(i for i, l in enumerate(lines) if l.strip().startswith("ANEXO 24 DE LAS"))
     idx25 = next(i for i, l in enumerate(lines) if l.strip().startswith("ANEXO 25 DE LAS"))
+    idx30 = next(i for i, l in enumerate(lines) if l.strip().startswith("ANEXO 30 DE LAS"))
     a22 = [l.rstrip() for l in lines[idx22:idx23]]
     a24 = [l.rstrip() for l in lines[idx24:idx25]]
+    a30 = [l.rstrip() for l in lines[idx30:]]
+    # recorta el cierre del DOF ("Atentamente." y pies de página)
+    fin30 = next((i for i, l in enumerate(a30) if l.strip().startswith("Atentamente")), len(a30))
+    a30 = a30[:fin30]
 
     # --- Anexo 22: separar instructivo y apéndices
     cortes = [(i, APENDICE_RE.match(l.strip()).group(1)) for i, l in enumerate(a22) if APENDICE_RE.match(l.strip())]
@@ -79,6 +85,12 @@ def main():
         "Información mínima del sistema automatizado de control de inventarios (IMMEX)",
         "\n".join(a24).strip(), "Anexo 24 — Control de inventarios"))
 
+    # --- Anexo 30 completo
+    entradas.append(entrada(
+        "RGCE-anexo-30", "Anexo 30",
+        "Sistema de Control de Cuentas de Créditos y Garantías (SCCCyG)",
+        "\n".join(a30).strip(), "Anexo 30 — SCCCyG"))
+
     d = json.loads((DATA / "rgce.json").read_text(encoding="utf-8"))
     d["articulos"] = [a for a in d["articulos"] if not a["id"].startswith("RGCE-anexo-")]
     d["articulos"].extend(entradas)
@@ -87,7 +99,7 @@ def main():
     (DATA / "rgce.json").write_text(json.dumps(d, ensure_ascii=False, indent=1), encoding="utf-8")
 
     print(f"Anexo 22: instructivo ({len(instructivo)//1024} KB) + {len(ordenados)} apéndices | "
-          f"Anexo 24: {len(a24)} líneas | total entradas RGCE: {len(d['articulos'])}")
+          f"Anexo 24: {len(a24)} líneas | Anexo 30: {len(a30)} líneas | total entradas RGCE: {len(d['articulos'])}")
 
 
 if __name__ == "__main__":

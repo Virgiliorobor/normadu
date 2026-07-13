@@ -11,6 +11,7 @@ Directorio consultable de las disposiciones legales aplicables al comercio exter
 | RGCE | Reglas Generales de Comercio Exterior 2026 (550 reglas + glosario) | DOF 27-12-2025 / minisitio SAT | 1a RM aplicada (DOF 14-05-2026) |
 | — | RGCE Anexo 22 (instructivo del pedimento + 22 apéndices) | DOF 15-01-2026 | 1a Modificación aplicada (DOF 20-05-2026, clave AL) |
 | — | RGCE Anexo 24 (control de inventarios IMMEX) | DOF 15-01-2026 | vigente |
+| — | RGCE Anexo 30 (SCCCyG — control de créditos y garantías IVA/IEPS) | DOF 15-01-2026 | vigente |
 | RCSE | Reglas y Criterios de Comercio Exterior SE (198 reglas) | Compilado SNICE | al 02-04-2026 (13 publicaciones DOF) |
 | IMMEX | Decreto IMMEX completo (34 artículos + 6 Bis, transitorios y anexos I–IV) | Compilado SNICE | al 28-08-2025 |
 
