@@ -1,7 +1,6 @@
 services:
   normadu:
     build: .
-    container_name: normadu
-    ports:
-      - "8080:80"
+    expose:
+      - "80"
     restart: unless-stopped
