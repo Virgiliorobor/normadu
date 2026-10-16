@@ -212,8 +212,13 @@ function linkifica(html, ordId) {
       return pre + nums.replace(/\\d+\\.\\d+\\.\\d+/g, n =>
         IDX[dest + '-' + n] ? '<a class="refint" data-ir="' + dest + '-' + n + '">' + n + '</a>' : n);
     });
-  html = html.replace(/Anexo\\s+(22|24|30)\\b(?!\\s*\\.)/g, (m, n) =>
+  html = html.replace(/Anexo\\s+(1|2|22|24|30)\\b(?!\\.\\d)/g, (m, n) =>
     IDX['RGCE-anexo-' + n] ? '<a class="refint" data-ir="RGCE-anexo-' + n + '">' + m + '</a>' : m);
+  // fichas del Anexo 2 (62/LA) y formatos/modelos del Anexo 1 (E3, M1.8.)
+  html = html.replace(/\\b(\\d{1,3})\\/LA\\b/g, (m, n) =>
+    IDX['RGCE-anexo-2-' + n + 'LA'] ? '<a class="refint" data-ir="RGCE-anexo-2-' + n + 'LA">' + m + '</a>' : m);
+  html = html.replace(/(formatos?\\s+(?:denominados?\\s+)?|modelos?\\s+)([A-F]\\d{1,2}|M1\\.\\d{1,2})\\b/gi, (m, pre, c) =>
+    IDX['RGCE-anexo-1-' + c] ? pre + '<a class="refint" data-ir="RGCE-anexo-1-' + c + '">' + c + '</a>' : m);
   return html;
 }
 
@@ -252,12 +257,10 @@ function muestraArticulo(id) {
     }).join('');
   }
   const refs = (a.referencias || []).map(chipRef).join('');
-  const notas = a.notas_reforma && a.notas_reforma.length
-    ? '<div class="notas">' + a.notas_reforma.map(n => '<div>' + esc(n) + '</div>').join('') + '</div>' : '';
-  const hist = (a.historial || []).map(h =>
-    '<details class="historial"><summary>Texto anterior (vigente hasta ' + h.vigente_hasta + ')</summary>' +
-    '<div class="anterior">' + esc(h.texto) + '</div>' +
-    '<div class="fuente">' + esc(h.fuente_anterior || '') + (h.motivo ? ' · ' + esc(h.motivo) : '') + '</div></details>').join('');
+  const notas = (a.notas_reforma && a.notas_reforma.length) || a.nota_fuente
+    ? '<div class="notas">' + (a.notas_reforma || []).map(n => '<div>' + esc(n) + '</div>').join('') +
+      (a.nota_fuente ? '<div>Nota de captura: ' + esc(a.nota_fuente) + '</div>' : '') + '</div>' : '';
+  const hist = pintaHistorial(a.historial);
   const titulo = a.numero.startsWith('Anexo') ? a.numero : (esReglas(o) ? 'Regla ' + a.numero : 'Artículo ' + a.numero);
   document.getElementById('contenido').innerHTML =
     '<div class="migas">' + migas + '</div>' +
@@ -271,13 +274,23 @@ function muestraArticulo(id) {
   if (ix) { ix.classList.add('activo'); ix.scrollIntoView({block: 'nearest'}); }
 }
 
+function pintaHistorial(lista) {
+  return (lista || []).map(h =>
+    '<details class="historial"><summary>Texto anterior' + (h.numeral ? ' — numeral ' + esc(h.numeral) : '') +
+    (h.transitorio ? ' — ' + esc(h.transitorio) : '') + ' (vigente hasta ' + h.vigente_hasta + ')</summary>' +
+    '<div class="anterior">' + esc(h.texto) + '</div>' +
+    '<div class="fuente">' + esc(h.fuente_anterior || '') + (h.motivo ? ' · ' + esc(h.motivo) : '') + '</div></details>').join('');
+}
+
 function muestraBloque(ordId, campo, titulo) {
   const o = ORDS[ordId];
   ordActual = ordId; pintaTabs(); pintaIndice();
+  const notas = o[campo + '_notas_reforma'] || [];
   document.getElementById('contenido').innerHTML =
     '<div class="migas">' + o.nombre + ' › ' + titulo + '</div><article><h2>' + titulo + '</h2>' +
     o[campo].split('\\n').map(p => p.trim() ? '<p class="parrafo">' + esc(p) + '</p>' : '').join('') +
-    '</article>';
+    (notas.length ? '<div class="notas">' + notas.map(n => '<div>' + esc(n) + '</div>').join('') + '</div>' : '') +
+    pintaHistorial(o[campo + '_historial']) + '</article>';
   document.getElementById('contenido').scrollTop = 0;
 }
 

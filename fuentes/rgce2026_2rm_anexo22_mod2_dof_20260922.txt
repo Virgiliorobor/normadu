@@ -1,0 +1,568 @@
+                                                DIARIO OFICIAL                    Martes 22 de septiembre de 2026
+
+        SECRETARIA DE HACIENDA Y CREDITO PUBLICO
+
+SEGUNDA Resolución de Modificaciones a las Reglas Generales de Comercio Exterior para 2026 y anexos 1,
+2 y 22.
+
+Al margen un sello con el Escudo Nacional, que dice: Estados Unidos Mexicanos.- Hacienda.- Secretaría de
+Hacienda y Crédito Público.- Servicio de Administración Tributaria.
+
+                      SEGUNDA MODIFICACIÓN AL ANEXO 22 DE LAS REGLAS GENERALES
+                                              DE COMERCIO EXTERIOR PARA 2026
+
+                                            Instructivo para el llenado del pedimento
+
+    …
+
+                                                                  Contenido
+
+I.          …
+
+II.         Apéndices:
+
+            1. a 5. …
+
+            6.          Recintos fiscalizados.
+
+            7.          …
+
+            8.          Identificadores.
+
+            9.          Regulaciones y restricciones no arancelarias.
+
+            10. a 12. …
+
+            13.         Formas de pago.
+
+            14. a 22. ...
+
+I. …
+II. Apéndices
+…
+
+                                                 Apéndice 6
+                                          Recintos fiscalizados
+
+Aduana               Clave                      Recinto Fiscalizado                   Autorizado para
+                                                                                        elaboración,
+Aeropuerto           3      Aerovías de México, S.A. de C.V.
+                                                                                      transformación
+Internacional de la  4      AAACESA Almacenes Fiscalizados, S.A. de C.V.                o reparación
+                                                                                               No
+Ciudad de México                                                                               No
+                                                                                               No
+                     6      TME Recinto Fiscalizado, S.A. de C.V.                              No
+                                                                                               No
+                     7      Talma México Servicios Aeroportuarios, S.A. de C. V.               No
+                                                                                               No
+                     8      CCO-SAASA Cargo, S.A.                                              No
+                                                                                               No
+                     12 DHL Express México, S.A. de C.V.                                       No
+                                                                                               No
+                     13 CCO Almacén Fiscal, S.A. de C.V.                                       No
+                                                                                               No
+                     14 Lufthansa Cargo Servicios Logísticos de México, S.A. de C.V.           No
+
+                     15 Tramitadores Asociados de Aerocarga, S.A. de C.V.
+
+                     17 United Parcel Service de México, S.A. de C.V.
+
+                     279 Talma Servicios de Carga, S.A. de C.V.
+
+                     288 México Cargo Handling, S.A. de C.V.
+
+                     305 Interpuerto Multimodal de México, S.A. de C.V.
+
+                     307 World Express Cargo de México, S.A. de C.V.
+Martes 22 de septiembre de 2026  DIARIO OFICIAL
+
+Aeropuerto      292 Admerce, S.A. de C.V.                                                 No
+
+Internacional   293 Terminal Logistics, S.A. de C.V.                                      No
+
+Felipe Ángeles
+
+                294 Talma México Servicios Aeroportuarios, S.A. de C.V.                   No
+
+                295 AAACESA Almacenes Fiscalizados, S.A. de C.V.                          No
+
+                296 JC&JF Cargo, S.A. de C.V.                                             No
+
+                297 Interpuerto Multimodal de México, S.A. de C.V.                        No
+
+                299 World Express Cargo de México, S.A. de C.V.                           No
+
+                300 Insumos Comerciales Especializados, S.A. de C.V.                      No
+
+                301 Grupo Camili de México, S.A. de C.V.                                  No
+
+                303 TMM Almacenadora, S.A.P.I. de C.V.                                    No
+
+                304 CCO Almacén Fiscal, S.A. de C.V.                                      No
+
+                320 Interpuerto Multimodal de México, S.A. de C.V.                        No
+
+                321 Uni-Trade Performance, S.A. de C.V.                                   No
+
+Aguascalientes  165 Centros de Intercambio de Carga Express Estafeta, S.A. de C.V.        No
+
+                224 Nafta Rail, S. de R.L. de C.V.                                        No
+
+Altamira        19 Altamira Terminal Multimodal, S.A. de C.V.                             No
+
+                20 Altamira Terminal Portuaria, S.A. de C.V.                              No
+
+                225 Integradora de Servicios, Transporte y Almacenaje, S.A. de C.V.       No
+
+                22 Infraestructura Portuaria Mexicana, S.A. de C.V.                       No
+
+                166 Administración del Sistema Portuario Nacional Altamira, S.A. de C.V.  No
+
+                179 D.A. Hinojosa Terminal Multiusos, S.A. de C.V.                        No
+
+                180 Inmobiliaria Portuaria de Altamira, S. de R.L. de C.V.                No
+
+                201 Cooper T. Smith de México, S.A. de C.V.                               No
+
+                203 Grupo Castañeda, S.A. de C.V.                                         No
+
+                245 Almacenamiento y Logística Portuaria de Altamira, S.A. de C.V.        No
+
+                274 Administración del Sistema Portuario Nacional Altamira, S.A. de C.V.  No
+
+                283 Altamira Terminal de Multiservicios, S. de R.L. de C.V.               No
+
+                286 Almacenamiento y Logística Portuaria de Altamira, S.A. de C.V.        No
+
+                285 Posco México, S.A. de C.V.                                            No
+
+                306 Puertos Integrales del Sureste, S.A. de C.V.                          No
+
+                312 Servicios Carrier Interpuestos, S. de R.L. de C.V.                    No
+
+                317 ISL Transportes, S.A. de C.V.                                         No
+
+Cancún          54 Administración Portuaria Integral de Quintana Roo, S.A. de C.V.        No
+
+                175 Caribbean Logistics, S.A. de C.V.                                     No
+
+                238 Cargo RF, S.A. de C.V.                                                No
+
+Chihuahua       171 Aeropuerto de Chihuahua, S.A. de C.V.                                 No
+
+Ciudad Hidalgo  270 R.F. del Sureste, S.A. de C.V.                                        No
+
+                237 Administración del Sistema Portuario Nacional Puerto Chiapas, S.A.    No
+
+                de C.V.
+
+Ciudad Juárez   167 Accel Recinto Fiscalizado, S.A. de C.V.                               No
+
+Coatzacoalcos   23 Administración del Sistema Portuario Nacional Coatzacoalcos, S.A. de   No
+
+                C.V.
+
+                24 Vopak México, S.A. de C.V.                                             No
+
+Colombia        25 Dicex Integraciones, S.A. de C.V.                                      Sí
+                          DIARIO OFICIAL                                  Martes 22 de septiembre de 2026
+
+                 26 Mex Securit, S.A. de C.V.                                             No
+
+                 151 S.R. Asesores Aduanales de Nuevo Laredo, S.C.                        No
+
+                 161 Santos Esquivel y Cía, S.C.                                          No
+
+                 176 Centro de Carga y Descarga de Colombia, S.A. de C.V.                 No
+
+                 178 Grupo Coordinador de Importadores, S.A. de C.V.                      No
+
+    Ensenada     27 Ensenada International Terminal, S.A. de C.V.                         No
+   Guadalajara
+   Guanajuato    78 Administración del Sistema Portuario Nacional Ensenada, S.A. de C.V.  No
+
+     Guaymas     28 Almacenadora GWTC, S.A. de C.V.                                       Sí
+Lázaro Cárdenas
+                 228 CLA Guadalajara, S.A. de C.V.                                        No
+    Manzanillo
+                 277 Federal Express Holdings (México) y Compañía, S.N.C. de C.V.         No
+    Matamoros
+     Mazatlán    196 Ferrocarril Mexicano, S.A. de C.V.                                   No
+      México
+    Monterrey    265 GTO Logistics Center, S.A. de C.V.                                   No
+
+                 30 Administración del Sistema Portuario Nacional Guaymas, S.A. de C.V.   No
+
+                 31 Administración del Sistema Portuario Nacional Lázaro Cárdenas, S.A.   No
+
+                 de C.V.
+
+                 33 AAK México, S.A. de C.V.                                              No
+
+                 173 UTTSA, S.A. de C.V.                                                  No
+
+                 199 Promotora Inmobiliaria del Balsas, S.A. de C.V.                      No
+
+                 200 L.C. Terminal Portuaria de Contenedores, S.A. de C.V.                No
+
+                 221 Promotora Inmobiliaria del Balsas, S.A. de C.V.                      No
+
+                 232 Arcelormittal Portuarios, S.A. de C.V.                               No
+
+                 249 L.C. Multipurpose Terminal, S.A. de C.V.                             No
+
+                 257 APM Terminals Lázaro Cárdenas, S.A. de C.V.                          No
+
+                 259 SSA Lázaro Cárdenas, S.A. de C.V.                                    No
+
+                 310 Amports de México, S.A. de C.V.                                      No
+
+                 318 Hyundai Glovis México, S. de R.L. de C.V.                            No
+
+                 319 Hyundai Glovis México, S. de R.L. de C.V.                            No
+
+                 35 Administración del Sistema Portuario Nacional Manzanillo, S.A. de     No
+
+                 C.V.
+
+                 39 SSA México, S.A. de C.V.                                              No
+
+                 40 Terminal Internacional de Manzanillo, S.A. de C.V.                    No
+
+                 77 Corporación Multimodal, S.A. de C.V.                                  No
+
+                 242 Frigorífico de Manzanillo, S.A. de C.V.                              No
+
+                 241 Contecon Manzanillo, S.A. de C.V.                                    No
+
+                 254 Terminal Marítima Hazesa, S.A. de C.V.                               No
+
+                 284 Cemex, S.A.B. de C.V.                                                No
+
+                 291 Operadora de la Cuenca del Pacífico, S.A. de C.V.                    No
+
+                 298 Comercializadora La Junta, S.A. de C.V.                              No
+
+                 227 Profesionales Mexicanos del Comercio Exterior, S.C.                  No
+
+                 235 Terminal Marítima Mazatlán, S.A. de C.V.                             No
+
+                 145 Ferrocarril y Terminal del Valle de México, S.A. de C.V.             No
+
+                 45 Kansas City Southern de México, S.A. de C.V.                          No
+
+                 158 Aeropuerto de Monterrey, S.A. de C.V.                                No
+
+                 204 Ferrocarril Mexicano, S.A. de C.V.                                   No
+Martes 22 de septiembre de 2026       DIARIO OFICIAL
+
+                223 DHL Express México, S.A. de C.V.                                     No
+
+                243 Federal Express Holdings (México) y Compañía, S.N.C. de C.V.         No
+
+                260 OMA Logística, S.A. de C.V.                                          No
+
+                308 Dicex Soluciones, S.A. de C.V.                                       No
+
+                309 United Parcel Service de México, S.A. de C.V.                        No
+
+Nogales         46 Servicios de Almacén Fiscalizado de Nogales, S.A. de C.V.             No
+
+                177 Grupo Inmobiliario Maymar, S.A. de C.V.                              No
+
+Nuevo Laredo    240 Loginspecs, S.C.                                                     No
+
+Piedras Negras  150 Mercurio Cargo, S.A. de C.V.                                         No
+
+                267 Consultores de Logística en Comercio Exterior, S.A. de C.V.          No
+
+Progreso        47 Administración del Sistema Portuario Nacional Progreso, S.A. de C.V.  No
+
+                50 Multisur, S.A. de C.V.                                                No
+
+                184 Terminal de Contenedores de Yucatán, S.A. de C.V.                    No
+
+                264 Cargo RF, S.A. de C.V.                                               No
+
+Puebla          198 A/WTC Puebla, S.A. de C.V.                                           No
+
+Querétaro       210 Terminal Logistics, S.A. de C.V.                                     No
+
+Reynosa         52 Recintos Fiscalizados del Noreste, S.A. de C.V.                       No
+
+Salina Cruz     53 Administración del Sistema Portuario Nacional Salina Cruz, S.A. de    No
+
+                C.V.
+
+Tampico         55 Gremio Unido de Alijadores, S.C. de R.L.                              No
+
+                289 Tampico Terminal Marítima, S.A. de C.V.                              No
+
+                290 Administración de Servicios Comunes Portuarios, S.A. de C.V.         No
+
+Tecate          287 Amigo Flight Center, S.A. de C.V.                                    No
+
+Tijuana         269 Carga Aérea Matrix, S. de R.L. de C.V.                               No
+
+Toluca          56 Talma México Servicios Aeroportuarios, S.A. de C.V.                   No
+
+                197 Vamos a México, S.A. de C.V.                                         No
+
+                315 Federal Express Holdings (México) y Compañía, S.N.C. de C.V.         No
+
+Tuxpan          246 FR Terminales, S.A. de C.V.                                          No
+
+                251 Administración del Sistema Portuario Nacional Tuxpan, S.A. de C.V.   No
+
+                256 Tuxpan Port Terminal, S.A. de C.V.                                   No
+
+                261 Terminales Marítimas Transunisa, S.A. de C.V.                        No
+
+Veracruz        63 Administración del Sistema Portuario Nacional Veracruz, S.A. de C.V.  No
+
+                64 Almacenadora Golmex, S.A. de C.V.                                     No
+
+                66 CIF Almacenajes y Servicios, S.A. de C.V.                             No
+
+                67 Corporación Integral de Comercio Exterior, S.A. de C.V.               No
+
+                73 Terminales de Cargas Especializadas, S.A. de C.V.                     No
+
+                74 Vopak México, S.A. de C.V.                                            No
+
+                172 Servicios Especiales Portuarios, S.A. de C.V.                        No
+
+                233 Excellence Sea & Land Logistics, S.A. de C.V.                        No
+
+                255 SSA México, S.A. de C.V.                                             No
+
+                275 Internacional de Contenedores Asociados de Veracruz, S.A. de C.V.    No
+
+                276 Corporación Portuaria de Veracruz, S.A. de C.V.                      No
+
+                278 SSA México, S.A. de C.V.                                             No
+
+                280 Opever, S.A. de C.V.                                                 No
+   DIARIO OFICIAL                                 Martes 22 de septiembre de 2026
+
+   281 Puerto Especializados Transnacionales PETRA, S.A. de C.V.        No
+
+   302 Cargill de México, S.A. de C.V.                                  No
+
+   313 Reparación Integral de Contenedores, S.A.P.I. de C.V.            No
+
+   314 Servicios Maniobras y Almacenamientos de Veracruz, S.A. de C.V.  No
+
+   316 CICE La Opción Más Completa, S.A. de C.V.                        No
+
+…
+                                                                    Apéndice 8                                                                                      Martes 22 de septiembre de 2026
+                                                                  Identificadores
+
+Clave                  Nivel Supuestos de Aplicación              Complemento 1                     Complemento 2                       Complemento 3
+
+….                             …             …                                …                     …                                   …
+
+AO - Agencia Aduanal.  G          Identificar a una Agencia Número de autorización.                 Número de autorización o patente    No asentar datos. (Vacío).
+                                                                                                    del Agente Aduanal incorporado o
+                                  Aduanal autorizada.                                               integrado a la Agencia Aduanal
+                                                                                                    (tantos agentes aduanales se
+                                                                                                    encuentren incorporados o
+                                                                                                    integrados a la agencia).
+
+….                             …             …                                …                     …                                   …
+
+EX- Exención de cuenta P          Indicar excepción de la 1.      Valor igual o superior al precio  No asentar datos. (Vacío).
+        aduanera de garantía.                                     estimado conforme al segundo
+                                  presentación de la cuenta       párrafo de la regla 1.6.29.       Para efectos del numeral 28 del
+                                                                  No aplica.                        complemento 1, asentar la clave
+                                  aduanera de garantía de         No aplica.                        del registro de identificación que
+                                                                  No aplica.                        corresponde al proveedor en el
+                                  mercancías sujetas a precio 2.  No aplica.                        extranjero que hubiera efectuado                                DIARIO OFICIAL
+                                                                  No aplica.                        la enajenación del vehículo de
+                                  estimado.                  3.                                     que se trate.
+
+                                                             4.
+
+                                                             5.
+
+                                                             6.
+
+                                                             7.   No aplica.
+
+                                                             8.   No aplica.
+
+                                                             9.   No aplica.
+
+                                                             10.  No aplica.
+
+                                                             11.  No aplica.
+
+                                                             12.  No aplica.
+
+                                                             13.  No aplica.
+
+                                                             14.  No aplica.
+
+                                                             15.  No aplica.
+
+                                                             16.  No aplica.
+
+                                                             17.  No aplica.
+
+                                                             18.  No aplica.
+
+                                                             19.  No aplica.
+
+                                                             20.  No aplica.
+
+                                                             21.  No aplica.                                                                                        71
+22. Vehículo no descrito en el Anexo 2        72
+        de la Resolución de precios
+        estimados, por no estar incluida la   DIARIO OFICIAL
+        fracción arancelaria y NICO o no
+        encontrarse dentro de los años        Martes 22 de septiembre de 2026
+        modelo sujetos a dicho anexo.
+
+23. Importación de vehículos realizada
+        al amparo de una franquicia
+        diplomática de conformidad con el
+        artículo 62, fracción I de la Ley.
+
+24. Importación de vehículos
+        especiales o adaptados que sean
+        para su uso personal a que se
+        refiere el artículo 61, fracción XV
+        de la Ley.
+
+25. No aplica.
+
+26. Las realizadas por empresas que
+        se dedican al desmantelamiento
+        de vehículos automotores usados,
+        al amparo del “Decreto de
+        vehículos usados”.
+
+27. Vehículos con peso bruto vehicular
+        inferior o igual a 8,864 kilogramos,
+        cuyo número de serie o año-
+        modelo tiene una antigüedad igual
+        o mayor a treinta años respecto al
+        año-modelo vigente.
+
+28. Importación de vehículos usados
+        de conformidad con el Artículo
+        Décimo Primero de la Resolución
+        de precios estimados.
+
+29. Valor igual o superior al precio
+        estimado, conforme al anexo 3 de
+        la Resolución de precios
+        estimados.
+
+30. Las exentas del pago del IGI
+        conforme a los acuerdos
+        comerciales o tratados de libre
+        comercio de los que el Estado
+        Mexicano sea Parte y se
+        encuentren en vigor (regla 1.6.29.,
+        fracción V).
+                                31. No aplica.                                                                                                    Martes 22 de septiembre de 2026
+
+                                32. La importación definitiva de                                                                                  DIARIO OFICIAL
+                                        vehículos usados, realizada de
+                                        conformidad con el “Decreto por el
+                                        que se fomenta la regularización
+                                        de vehículos usados de
+                                        procedencia extranjera”, publicado
+                                        en el DOF el 19 de enero de 2022
+                                        y sus posteriores modificaciones.
+
+                                33. Valor igual o superior al precio
+                                        estimado, conforme al Anexo 5 de
+                                        la Resolución de precios
+                                        estimados.
+
+                                34. Se trata de mercancía destinada al
+                                        régimen de recinto fiscalizado
+                                        estratégico para elaboración,
+                                        transformación o reparación.
+
+…                         …  …                                                             …                       …                           …
+
+GA- Cuenta aduanera de P     Indicar la presentación de una 1.                 No aplica.                          No asentar datos. (Vacío).
+        garantía.            cuenta aduanera de garantía. 2.
+                                                                               Mercancía contenida en el Anexo
+                                                                           3.  2 de la Resolución de precios
+                                                                               estimados.
+                                                                           4.
+                                                                           5.  Mercancía contenida en el Anexo
+                                                                               3 de la Resolución de precios
+                                                                           6.  estimados.
+
+                                                                               No aplica.
+
+                                                                               Mercancía contenida en el Anexo
+                                                                               5 de la Resolución de precios
+                                                                               estimados.
+
+                                                                               Mercancía destinada al régimen
+                                                                               de recinto fiscalizado estratégico
+                                                                               para el manejo, almacenaje,
+                                                                               custodia, exhibición, venta o
+                                                                               distribución.
+
+…                         …  …                                                             …                       …                           …  73
+74     DIARIO OFICIAL                                                                Martes 22 de septiembre de 2026
+
+                               Apéndice 9
+       Regulaciones y restricciones no arancelarias
+
+Clave                                                     Secretaría de Economía
+  …
+  C1                                                                      Descripción
+
+  …    …
+
+       Permiso previo o permiso automático de importación definitiva, temporal para mercancías de las fracciones
+       arancelarias comprendidas en los numerales 1, fracción I, 3, 4,8 BIS y 8 TER, del Anexo 2.2.1 “Clasificación y
+       codificación de mercancías cuya importación y exportación está sujeta al requisito de permiso previo o aviso
+       automático por parte de la Secretaría de Economía” del “Acuerdo por el que la Secretaría de Economía emite
+       Reglas y criterios de carácter general en materia de comercio exterior”, publicado en el DOF el 09 de mayo de
+       2022 y sus posteriores modificaciones, según se especifique en cada uno de ellos y aviso de la Secretaría de
+       Economía.
+
+       …
+
+ …                                                      Apéndice 13
+                                                     Formas de pago
+Clave
+   0                                                                    Descripción
+   2   Efectivo.
+   4   Fianza.
+   5   Depósito en cuenta aduanera.
+   6   Temporal no sujeta a impuestos.
+   7   Pendiente de pago.
+   8   Cargo a partida presupuestal Gobierno Federal.
+   9   Franquicia.
+  12   Exento de pago.
+  13   Compensación.
+  15   Pago ya efectuado.
+  16   Cuentas aduaneras de garantía.
+  18   Acreditamiento.
+  19   Estímulo fiscal.
+  21   Otros medios de garantía.
+  22   Crédito en IVA e IEPS.
+  23   Garantía en IVA e IEPS.
+       Reducción de multas.
+
+    …
+
+    Atentamente.
+
+    Ciudad de México, a 10 de septiembre de 2026.- En suplencia por ausencia del Jefe del Servicio
+de Administración Tributaria, con fundamento en el artículo 4, primer párrafo del Reglamento Interior del
+Servicio de Administración Tributaria, firma el Administrador General Jurídico, Lic. Ricardo Carrasco
+Varona.- Rúbrica.
+
