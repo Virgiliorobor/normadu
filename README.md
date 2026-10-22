@@ -66,7 +66,10 @@ Revisa el DOF día por día (API pública de SIDOF) desde la `ultima_reforma` de
 los documentos del minisitio RGCE del SAT (versiones anticipadas y compilados nuevos desde la corrida anterior) y la
 portada de los PDF de LeyesBiblio (LA y RLA). Lo ya revisado se anota en `vigilancia\atendidas.json` (codNota → estado)
 y deja de salir como pendiente. También lista los archivos que OneDrive dejó solo en línea. Sin llaves ni servicios de pago.
-Para programarla: `scripts\programar_vigilancia.ps1` (lunes y jueves, Programador de tareas de Windows; no se registra sola).
+Programada desde el 22-10-2026 con `scripts\programar_vigilancia.ps1`: tarea «normadu vigilancia DOF», lunes y jueves
+a las 08:30 (Programador de tareas de Windows). La misma tarea hace antes `git pull --ff-only` del clon de solo lectura
+`C:\Users\Jaime V. Rob\Dev\normadu` (clonado de GitHub, push deshabilitado), que usan los agentes de otros espacios de
+trabajo. El clon refleja lo que está en GitHub: un merge local sin push no le llega hasta el siguiente push.
 
 ## Cómo actualizar cuando se publique una modificación
 
