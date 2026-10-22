@@ -1,0 +1,183 @@
+<title>Normadu al día</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: una columna de lectura; cada decisión es un renglón con tres botones (Sí / No / Cambiar) y nota opcional. */
+:root {
+  --bg: #f6f5f3; --surface: #ffffff; --fg: #1f2328; --muted: #5d6168; --line: #dedad5;
+  --accent: #691c32; --accent-soft: #f3e7ea;
+  --pass: #1f6f43; --pass-soft: #e3f1e8; --fail: #a3261b; --fail-soft: #f8e4e1; --change: #8a5a00; --change-soft: #f6ecd7;
+  --display: "Literata", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", Consolas, "Courier New", monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17181a; --surface: #202225; --fg: #e8e6e3; --muted: #a2a5ab; --line: #34363a;
+  --accent: #d98ba0; --accent-soft: #3a2229;
+  --pass: #7fcf9f; --pass-soft: #1d3326; --fail: #f19a8f; --fail-soft: #3c2220; --change: #e3b35c; --change-soft: #3a2f1a;
+  color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #17181a; --surface: #202225; --fg: #e8e6e3; --muted: #a2a5ab; --line: #34363a;
+  --accent: #d98ba0; --accent-soft: #3a2229;
+  --pass: #7fcf9f; --pass-soft: #1d3326; --fail: #f19a8f; --fail-soft: #3c2220; --change: #e3b35c; --change-soft: #3a2f1a;
+  color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.6 var(--body); }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 40px 96px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header .eyebrow { font: 500 12px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 650 2rem/1.15 var(--display); margin: 10px 0 12px; text-wrap: balance; }
+h2 { font: 650 1.25rem/1.3 var(--display); margin: 44px 0 6px; text-wrap: balance; }
+p { margin: 0 0 12px; max-width: 65ch; }
+.lead { color: var(--muted); }
+code, .mono { font-family: var(--mono); font-size: .86em; }
+code { background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; overflow-wrap: anywhere; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--line);
+  border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin: 22px 0 6px; }
+.facts div { background: var(--surface); padding: 12px 14px; min-width: 0; }
+.facts b { display: block; font: 500 11px/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
+.facts span { font-weight: 600; }
+.status-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.table-scroll { overflow-x: auto; margin-top: 10px; }
+.status-table th, .status-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.status-table th { font: 500 11px/1.3 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.status-table td:first-child { font-family: var(--mono); font-weight: 500; white-space: nowrap; }
+.pill { display: inline-block; font: 500 11px/1.6 var(--mono); padding: 0 7px; border-radius: 999px; white-space: nowrap; }
+.pill.ok { background: var(--pass-soft); color: var(--pass); }
+.pill.upd { background: var(--change-soft); color: var(--change); }
+ol.items { list-style: none; padding: 0; margin: 14px 0 0; display: grid; gap: 12px; counter-reset: q; }
+.item { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; counter-increment: q; }
+.item[data-answer="Sí"] { border-color: var(--pass); }
+.item[data-answer="No"] { border-color: var(--fail); }
+.item[data-answer="Cambiar"] { border-color: var(--change); }
+.item h3 { font: 600 15px/1.4 var(--body); margin: 0 0 4px; }
+.item h3::before { content: counter(q) ". "; color: var(--muted); font-family: var(--mono); font-weight: 500; }
+.item p { font-size: 14px; color: var(--muted); margin: 0 0 10px; }
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices button { font: 500 13px/1 var(--body); padding: 8px 14px; border-radius: 6px; border: 1px solid var(--line);
+  background: transparent; color: var(--fg); cursor: pointer; }
+.choices button:hover { border-color: var(--muted); }
+.choices button:focus-visible, textarea:focus-visible, .copy:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.choices button[aria-pressed="true"][data-v="Sí"] { background: var(--pass-soft); border-color: var(--pass); color: var(--pass); }
+.choices button[aria-pressed="true"][data-v="No"] { background: var(--fail-soft); border-color: var(--fail); color: var(--fail); }
+.choices button[aria-pressed="true"][data-v="Cambiar"] { background: var(--change-soft); border-color: var(--change); color: var(--change); }
+textarea { display: block; width: 100%; box-sizing: border-box; margin-top: 10px; min-height: 52px; resize: vertical;
+  font: 14px/1.5 var(--body); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; }
+.bar { position: sticky; bottom: 0; margin-top: 28px; padding: 12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
+  background: var(--bg); border-top: 1px solid var(--line); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.copy { font: 600 14px/1 var(--body); padding: 11px 18px; border-radius: 6px; border: 0; background: var(--accent); color: var(--surface); cursor: pointer; }
+.count { color: var(--muted); font-size: 13px; }
+#out { display: block; width: 100%; box-sizing: border-box; min-height: 120px; font: 12px/1.5 var(--mono); }
+ul.plain { margin: 0 0 12px; padding-left: 20px; max-width: 65ch; }
+ul.plain li { margin-bottom: 4px; }
+.note { font-size: 13px; color: var(--muted); }
+@media (prefers-reduced-motion: no-preference) { .item { transition: border-color .15s ease; } }
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">normadu · 22-10-2026 · rama corpus-update-2026-10-22</div>
+  <h1>Normadu al día: actualización y vigilancia</h1>
+  <p class="lead">Qué cambió hoy en el corpus y la propuesta para que siga al día. Marca cada punto con Sí, No o Cambiar, agrega una nota si hace falta y pulsa «Copiar respuestas» para mandarlas a dev-os.</p>
+</header>
+
+<div class="facts">
+  <div><b>Rama</b><span class="mono">corpus-update-2026-10-22</span></div>
+  <div><b>Commit</b><span class="mono">0b40ded</span> (sin merge ni push)</div>
+  <div><b>DOF revisado</b><span>hasta el 22-10-2026</span></div>
+  <div><b>Costo de servicios</b><span>$0 (sin llaves)</span></div>
+</div>
+
+<h2>Parte A: estado del corpus</h2>
+<div class="table-scroll">
+<table class="status-table">
+  <thead><tr><th>Id</th><th>Corte</th><th>Resultado de la revisión del DOF</th></tr></thead>
+  <tbody>
+    <tr><td>RCSE</td><td><span class="pill upd">28-09-2026</span></td><td>Aplicados con historial los Acuerdos SE del 28-05-2026 (2.2.4 fr. VI y 2.2.19 BIS nueva; vigor condicionado al trámite en Ventanilla Digital) y del 29-05-2026 (1.2.1, 2.4.3, 2.4.6, 2.4.11). El del 28-09-2026 solo modifica el Anexo 2.4.1, que no se carga; queda registrado.</td></tr>
+    <tr><td>RGCE</td><td><span class="pill ok">22-09-2026</span></td><td>Sin publicación nueva en el DOF. La 3a RM sigue solo como versión anticipada del SAT (30-09-2026), no aplicada. Corregidas las referencias «Decreto IMMEX 24» de RGCE-4.3.1 y unas 30 reglas más, que salían sin artículo.</td></tr>
+    <tr><td>LA</td><td><span class="pill ok">19-11-2025</span></td><td>Al día (LeyesBiblio dice lo mismo). Los Lineamientos del art. 159 bis (DOF 31-03-2026) no reforman la Ley.</td></tr>
+    <tr><td>RLA</td><td><span class="pill ok">23-02-2026</span></td><td>Al día.</td></tr>
+    <tr><td>IMMEX</td><td><span class="pill ok">28-08-2025</span></td><td>Al día. El Decreto del 26-03-2026 solo agrega un arancel-cupo (rieles) al decreto de 2022; no toca el texto IMMEX.</td></tr>
+  </tbody>
+</table>
+</div>
+<p class="note" style="margin-top:10px">Ya está hecho y verificado: el pipeline completo corre (<code>scripts/actualizar.py</code>) y <code>verificar.py</code> confirma que no se perdió ninguna entrada y que todo texto reformado guarda el anterior en historial.</p>
+
+<h2>Parte B: cómo mantenerlo al día</h2>
+<p><b>Revisar</b> (automático): <code>scripts/vigilar_dof.py</code> consulta el DOF día por día con la API pública de SIDOF desde la última reforma de cada ordenamiento, revisa el minisitio del SAT (versiones anticipadas y compilados nuevos) y la portada de los PDF de LeyesBiblio. Escribe <code>vigilancia/ultimo_reporte.md</code> con lo pendiente y termina con código 2 si hay algo que revisar. Lo ya resuelto se anota en <code>vigilancia/atendidas.json</code>.</p>
+<p><b>Aplicar y verificar</b> (sesión de Claude cuando el reporte trae algo): descargar del DOF a <code>fuentes/</code> y anotarlo en el registro; codificar los cambios con anclas e historial; correr <code>python scripts/actualizar.py</code>; si la verificación pasa, commit en una rama y avisar. El merge y el push siguen siendo del owner.</p>
+<p><b>Sigue siendo manual:</b> decidir qué aplica y cuándo entra en vigor, cotejar tablas contra el PDF del DOF, las tablas de anexos del Acuerdo SE, los compilados nuevos de SNICE (sin aviso automático), el merge, el push y el despliegue.</p>
+
+<ol class="items" id="items">
+  <li class="item" data-id="A1"><h3>Hacer merge de la rama a main</h3><p>RCSE con los Acuerdos de mayo y septiembre de 2026, corrección de referencias al Decreto IMMEX y los scripts nuevos. Sin push.</p></li>
+  <li class="item" data-id="A2"><h3>Dejar aplicadas 2.2.4 fr. VI y 2.2.19 BIS con la nota «vigor condicionado»</h3><p>Están en el DOF, pero su entrada en vigor depende del comunicado del SNICE. Fuentes secundarias dicen que arrancó el 28-09-2026; no está confirmado con documento oficial. La alternativa es retirarlas hasta confirmarlo.</p></li>
+  <li class="item" data-id="A3"><h3>Mantener la 3a RM RGCE fuera de data/ hasta que salga en el DOF</h3><p>Solo existe la primera versión anticipada del SAT (30-09-2026). Cuando el reporte la detecte en el DOF, se aplica con el mismo procedimiento.</p></li>
+  <li class="item" data-id="B1"><h3>Programar la revisión lunes y jueves a las 08:30</h3><p>Programador de tareas de Windows con <code>scripts/programar_vigilancia.ps1</code> (lo corre el owner una vez). Si el equipo está apagado, corre al encender. Cada corrida hace unas 10 consultas y baja 3 MB de LeyesBiblio. Elige «Cambiar» si prefieres diario o semanal.</p></li>
+  <li class="item" data-id="B2"><h3>dev-os lee el reporte y abre una sesión aquí solo si hay pendientes</h3><p>Sin pendientes no se gasta nada. Con pendientes, el costo es una sesión de Claude para aplicar y verificar.</p></li>
+  <li class="item" data-id="B3"><h3>Usar el procedimiento de aplicar y verificar tal como está</h3><p>Fuente del DOF en <code>fuentes/</code> y registro → cambios con anclas e historial → <code>actualizar.py</code> → <code>verificar.py</code> contra HEAD → commit en rama → owner hace el merge.</p></li>
+  <li class="item" data-id="B4"><h3>Cuando SNICE publique un compilado nuevo de las Reglas SE, cotejarlo y reemplazar el que hay</h3><p>Mientras tanto, los Acuerdos se aplican encima del compilado del 02-04-2026. El SNICE no tiene una lista que se pueda consultar automáticamente; se revisa a mano cada mes o cuando entre un Acuerdo.</p></li>
+  <li class="item" data-id="C1"><h3>Marcar la carpeta normativa-aduanera como «Mantener siempre en este dispositivo»</h3><p>Hoy los archivos del corpus están en disco, pero 32 archivos de <code>.git</code> (objetos y hooks) están solo en línea: sin internet, git puede fallar. Se hace con clic derecho en el Explorador. El reporte de vigilancia lista en cada corrida los archivos que estén solo en línea.</p></li>
+  <li class="item" data-id="C2"><h3>Además, un clon local de solo lectura en C:\Users\Jaime V. Rob\Dev\normadu</h3><p>Para agentes de otros espacios de trabajo (p. ej. customs-work): un <code>git clone</code> fuera de OneDrive que se actualiza con <code>git pull</code> desde la carpeta de OneDrive. Opcional si C1 basta.</p></li>
+  <li class="item" data-id="C3"><h3>Abrir una tarea aparte para 118 referencias a artículos que no existen</h3><p>Avisos que <code>verificar.py</code> encontró y que ya estaban antes de este cambio (p. ej. RLA-204 → LA-204). No bloquean la verificación.</p></li>
+</ol>
+
+<div class="bar">
+  <button class="copy" id="copy" type="button">Copiar respuestas</button>
+  <span class="count" id="count" aria-live="polite">0 de 10 contestadas</span>
+</div>
+<textarea id="out" readonly hidden aria-label="Respuestas en texto"></textarea>
+</div>
+
+<script>
+(function () {
+  const KEY = 'normadu-vigilancia-respuestas';
+  let saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { saved = {}; }
+  const items = Array.from(document.querySelectorAll('.item'));
+  function store() { try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {} }
+  function count() {
+    const n = items.filter(li => li.dataset.answer).length;
+    document.getElementById('count').textContent = n + ' de ' + items.length + ' contestadas';
+  }
+  items.forEach(li => {
+    const id = li.dataset.id;
+    const box = document.createElement('div'); box.className = 'choices';
+    ['Sí', 'No', 'Cambiar'].forEach(v => {
+      const b = document.createElement('button'); b.type = 'button'; b.textContent = v; b.dataset.v = v;
+      b.id = 'q-' + id + '-' + (v === 'Sí' ? 'si' : v.toLowerCase());
+      b.setAttribute('aria-pressed', 'false');
+      b.addEventListener('click', () => {
+        const same = li.dataset.answer === v;
+        li.dataset.answer = same ? '' : v;
+        if (!same) li.setAttribute('data-answer', v); else li.removeAttribute('data-answer');
+        box.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(!same && x === b)));
+        saved[id] = Object.assign({}, saved[id], { a: same ? '' : v }); store(); count();
+      });
+      box.appendChild(b);
+    });
+    const t = document.createElement('textarea'); t.id = 'nota-' + id; t.placeholder = 'Nota (opcional)';
+    t.setAttribute('aria-label', 'Nota para el punto ' + id);
+    t.addEventListener('input', () => { saved[id] = Object.assign({}, saved[id], { n: t.value }); store(); });
+    li.appendChild(box); li.appendChild(t);
+    const s = saved[id] || {};
+    if (s.n) t.value = s.n;
+    if (s.a) { const b = box.querySelector('[data-v="' + s.a + '"]'); if (b) b.click(); }
+  });
+  count();
+  document.getElementById('copy').addEventListener('click', () => {
+    const lines = ['Respuestas normadu (vigilancia y puesta al día, rama corpus-update-2026-10-22):'];
+    items.forEach((li, i) => {
+      const id = li.dataset.id, s = saved[id] || {};
+      lines.push((i + 1) + '. [' + id + '] ' + li.querySelector('h3').textContent + ': ' + (s.a || 'sin respuesta') +
+        (s.n && s.n.trim() ? ' (nota: ' + s.n.trim() + ')' : ''));
+    });
+    const text = lines.join('\n');
+    const out = document.getElementById('out'); out.value = text;
+    const btn = document.getElementById('copy');
+    const done = ok => { btn.textContent = ok ? 'Copiado' : 'Selecciona y copia el texto de abajo';
+      if (!ok) { out.hidden = false; out.focus(); out.select(); }
+      setTimeout(() => { btn.textContent = 'Copiar respuestas'; }, 2500); };
+    try { navigator.clipboard.writeText(text).then(() => done(true), () => done(false)); } catch (e) { done(false); }
+  });
+})();
+</script>
