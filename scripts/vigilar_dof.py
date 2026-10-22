@@ -21,6 +21,7 @@ import html
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -170,14 +171,25 @@ def revisar_leyesbiblio():
         pdf = CACHE.parent / f"leyesbiblio_{ord_}.pdf"
         try:
             pdf.write_bytes(get(url, timeout=120))
-            txt = subprocess.run(["pdftotext", "-l", "1", "-enc", "UTF-8", str(pdf), "-"],
-                                 capture_output=True, check=True).stdout.decode("utf-8", "replace")
+            txt = portada_pdf(pdf)
         except Exception as e:
             out[ord_] = f"error: {e}"
             continue
         m = re.search(r"[ÚU]ltima reforma publicada DOF\s+(\d{2}-\d{2}-\d{4})", txt, re.I)
         out[ord_] = m.group(1) if m else "sin fecha legible"
     return out
+
+
+def portada_pdf(pdf):
+    """Texto de la primera página: pdfminer.six (dependencia del pipeline); si no está, pdftotext.
+    pdftotext viene con Git for Windows y no está en el PATH del Programador de tareas."""
+    try:
+        from pdfminer.high_level import extract_text
+        return extract_text(str(pdf), maxpages=1)
+    except ImportError:
+        exe = shutil.which("pdftotext") or r"C:\Program Files\Git\mingw64\bin\pdftotext.exe"
+        return subprocess.run([exe, "-l", "1", "-enc", "UTF-8", str(pdf), "-"],
+                              capture_output=True, check=True).stdout.decode("utf-8", "replace")
 
 
 def solo_en_linea(raiz):
