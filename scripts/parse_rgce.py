@@ -77,10 +77,18 @@ def parse_correlaciones(texto):
         m = re.match(r"^(Decreto|Acuerdo|Resoluci[óo]n|Tratados)\b(.*)$", p, re.I)
         if m:
             if re.search(r"IMMEX", p, re.I):
-                ma = re.search(r"Anexos?\s+([IVX]+(?:\s+(?:Bis|Ter))?|\d+)", p, re.I)
-                refs.append({"ord": "IMMEX", "art": f"anexo-{_num_norm(ma.group(1)).lower()}" if ma else ""})
-            else:
-                refs.append({"ord": "EXT", "art": "", "nombre": p[:80]})
+                # "Decreto IMMEX 7, 24, 27" (los números siguientes también son del Decreto),
+                # "Decreto IMMEX Anexo II", "Decreto IMMEX Anexo I-II"; sin número no hay referencia
+                ma = re.search(r"Anexos?\s+(.+)$", p, re.I)
+                if ma:
+                    for n in re.findall(r"[IVX]+(?:\s+(?:Bis|Ter))?|\d+", ma.group(1)):
+                        refs.append({"ord": "IMMEX", "art": f"anexo-{_num_norm(n).lower()}"})
+                else:
+                    for a in re.findall(r"\d+(?:\s+(?:Bis|Ter|bis|ter))?", p.split("IMMEX", 1)[1]):
+                        refs.append({"ord": "IMMEX", "art": _num_norm(a).lower()})
+                ord_actual = "IMMEX"
+                continue
+            refs.append({"ord": "EXT", "art": "", "nombre": p[:80]})
             ord_actual = "NOMBRADO"
             continue
         m = re.match(r"^([A-Z]{2,6}|Ley|Reglamento)\s+(.+)$", p)

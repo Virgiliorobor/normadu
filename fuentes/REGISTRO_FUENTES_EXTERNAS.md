@@ -104,3 +104,35 @@ Nota de numeración: las reglas de la Resolución T-MEC usan el formato `17.-` (
 5. Identificar el decreto que derogó el Anexo IV del Decreto IMMEX.
 
 **Advertencia:** copias de trabajo. El sustento legal es la publicación del DOF.
+
+---
+
+# Registro de fuentes externas — puesta al día del corpus y vigilancia (2026-10-22)
+
+**Fecha de descarga:** 22 de octubre de 2026
+**Quién lo pidió y para qué:** el owner, vía dev-os (tarea del 22-10-2026): revisar el DOF para cada ordenamiento de `data\index.json`, poner al día el corpus con historial (al menos RCSE, Acuerdo SE del 28-09-2026 y 3a RM RGCE solo si está en el DOF) y proponer un proceso de vigilancia.
+**Estado:** los tres Acuerdos SE se integraron a `data\reglas_se.json` en la rama `corpus-update-2026-10-22` (sin merge). Ninguna otra publicación del DOF reforma los ordenamientos del corpus.
+
+## Archivos agregados
+
+| Archivo | Contenido | Fuente original | Publicación | SHA-256 (.doc) |
+|---|---|---|---|---|
+| `reglas_se_mod_dof_20260528.doc` / `.txt` | Acuerdo que modifica las Reglas y criterios SE: adiciona 2.2.4 fr. VI, regla 2.2.19 BIS (permiso previo de importación de azúcar), Anexo 2.2.1 numeral 8 TER y Anexo 2.2.2 numeral 8. `.txt` = Word, texto sin formato cp1252 → UTF-8 | https://sidof.segob.gob.mx/notas/getDoc/5788843 (nota: https://www.dof.gob.mx/nota_detalle.php?codigo=5788843&fecha=28/05/2026) | DOF 28-05-2026; en vigor cuando la DGFCCE comunique en el SNICE la liberación del trámite en la Ventanilla Digital (Transitorio Único) | 65617249…36c0781 |
+| `reglas_se_mod_dof_20260529.doc` / `.txt` | Acuerdo que modifica las Reglas y criterios SE: 1.2.1 (adiciona XLVI BIS PLATIICA, deroga LXXI SINEC), 2.4.3 segundo párrafo, 2.4.6 fr. I y párrafos 2o y 3o, 2.4.11 fr. IX y IX BIS segundo párrafo; Anexo 2.4.1 numerales 1 y 3 (y elimina 8413.60.01) | https://sidof.segob.gob.mx/notas/getDoc/5788992 (nota: https://www.dof.gob.mx/nota_detalle.php?codigo=5788992&fecha=29/05/2026) | DOF 29-05-2026; en vigor el 30-05-2026 | bde62b94…4771289451 |
+| `reglas_se_mod_dof_20260928.doc` / `.txt` | Acuerdo que modifica las Reglas y criterios SE: solo el numeral 1 del Anexo 2.4.1 | https://sidof.segob.gob.mx/notas/getDoc/5799697 (nota: https://www.dof.gob.mx/nota_detalle.php?codigo=5799697&fecha=28/09/2026) | DOF 28-09-2026; en vigor el 29-09-2026, salvo NOM-221-SCFI-2017 y NOM-221/2-SCFI-2018 (30 días hábiles) | aca12abd…2d6147e3 |
+
+## Verificado (22-10-2026)
+
+1. **DOF revisado día por día** con `scripts\vigilar_dof.py` (API pública de SIDOF), desde la última reforma de cada ordenamiento hasta el 22-10-2026: LA desde 19-11-2025, RLA desde 23-02-2026, RGCE desde 22-09-2026, RCSE desde 02-04-2026, IMMEX desde 28-08-2025. Reporte: `vigilancia\ultimo_reporte.md`.
+2. **RGCE:** no hay publicación en el DOF posterior a la 2a RM (22-09-2026). La 3a RM sigue solo como primera versión anticipada del SAT (30-09-2026); el minisitio no tiene versiones anticipadas nuevas al 22-10-2026.
+3. **LA y RLA:** la portada de los PDF de LeyesBiblio dice "Última reforma publicada DOF 19-11-2025" (LA; cantidades actualizadas por RGCE DOF 27-12-2025) y "DOF 23-02-2026" (RLA), igual que el corpus. El Acuerdo de Lineamientos del art. 159 bis LA (DOF 31-03-2026) no reforma la Ley.
+4. **IMMEX:** el Decreto DOF 26-03-2026 (nota 5783297) solo adiciona la fracción 7302.10.02 al artículo Décimo Cuarto (arancel-cupo) del Decreto DOF 18-11-2022; no reforma el texto del Decreto IMMEX. Los avisos de programas cancelados o suspendidos no son reformas.
+5. **RCSE:** los textos nuevos se tomaron del `.txt` del DOF; las tablas de los anexos del Acuerdo no se cargan en `data\` (como antes) y sus cambios solo quedan en `data\modificaciones.json`.
+
+## Pendiente
+
+1. Confirmar en el SNICE el comunicado de liberación del trámite de permiso previo de azúcar (fija la entrada en vigor de 2.2.4 fr. VI, 2.2.19 BIS y, por remisión del Transitorio Segundo de la 2a RM, la clave C1 del apéndice 9 del Anexo 22). Fuentes secundarias (prensa y consultoras, no verificadas, 22-10-2026) mencionan un boletín SNICE del 21-08-2026 con inicio el 28-09-2026 y transición para la 2106.90.99 hasta el 02-11-2026. No se descargó ni se aplicó: falta el documento oficial.
+2. Cuando SNICE publique un compilado de las Reglas SE posterior al 28-09-2026, cotejarlo con lo aplicado y reemplazar el compilado.
+3. Cotejar contra la imagen o el PDF del DOF las tablas de los `.doc` (el Word puede desordenar tablas).
+
+**Advertencia:** copias de trabajo. El sustento legal es la publicación del DOF.

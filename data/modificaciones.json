@@ -53,5 +53,71 @@
   "notas": [
    "La modificación a la clave C1 del apéndice 9 del Anexo 22 entra en vigor en términos del Transitorio Único del Acuerdo SE publicado en el DOF el 28-05-2026 (Transitorio Segundo de la 2a RM)."
   ]
+ },
+ {
+  "ordenamiento": "RCSE",
+  "nombre": "Acuerdo que modifica el diverso por el que la SE emite Reglas y criterios de carácter general en materia de comercio exterior (permiso previo de importación de azúcar)",
+  "dof": "28-05-2026",
+  "en_vigor": "condicionada: cuando la DGFCCE comunique en el SNICE la liberación del trámite en la Ventanilla Digital (Transitorio Único)",
+  "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5788843&fecha=28/05/2026",
+  "fuente": "fuentes/reglas_se_mod_dof_20260528.txt",
+  "reglas_afectadas": [
+   "2.2.4",
+   "2.2.19 BIS"
+  ],
+  "anexos_afectados": [
+   "2.2.1",
+   "2.2.2"
+  ],
+  "anexos_detalle": {
+   "2.2.1": "numeral 8 TER adicionado (permiso previo: 1701.12.05, 1701.13.01, 1701.14.91, 1701.91.04, 1701.99.99, 1702.90.01 y 2106.90.99)",
+   "2.2.2": "numeral 8 adicionado"
+  },
+  "notas": [
+   "Los anexos del Acuerdo SE no se cargan en data/; consultar el DOF.",
+   "La clave C1 del apéndice 9 del Anexo 22 de las RGCE (2a RM) entra en vigor en términos de este Transitorio Único."
+  ]
+ },
+ {
+  "ordenamiento": "RCSE",
+  "nombre": "Acuerdo que modifica el diverso por el que la SE emite Reglas y criterios de carácter general en materia de comercio exterior (PLATIICA; NOM-ENER-2025)",
+  "dof": "29-05-2026",
+  "en_vigor": "30-05-2026",
+  "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5788992&fecha=29/05/2026",
+  "fuente": "fuentes/reglas_se_mod_dof_20260529.txt",
+  "reglas_afectadas": [
+   "1.2.1",
+   "2.4.3",
+   "2.4.6",
+   "2.4.11"
+  ],
+  "anexos_afectados": [
+   "2.4.1"
+  ],
+  "anexos_detalle": {
+   "2.4.1": "numerales 1 y 3 modificados; fracción 8413.60.01 eliminada del numeral 1 (resolutivo SEGUNDO)"
+  },
+  "notas": [
+   "Los anexos del Acuerdo SE no se cargan en data/; consultar el DOF.",
+   "Transitorio Segundo: los certificados vigentes de las NOM-004-ENER-2014, NOM-011-ENER-2006, NOM-014-ENER-2004 y NOM-016-ENER-2016 siguen sirviendo hasta el fin de su vigencia."
+  ]
+ },
+ {
+  "ordenamiento": "RCSE",
+  "nombre": "Acuerdo que modifica el diverso por el que la SE emite reglas y criterios de carácter general en materia de comercio exterior (Anexo 2.4.1, numeral 1)",
+  "dof": "28-09-2026",
+  "en_vigor": "29-09-2026; lo relativo a la NOM-221-SCFI-2017 y NOM-221/2-SCFI-2018, a los 30 días hábiles siguientes a la publicación (Transitorio Único)",
+  "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5799697&fecha=28/09/2026",
+  "fuente": "fuentes/reglas_se_mod_dof_20260928.txt",
+  "reglas_afectadas": [],
+  "anexos_afectados": [
+   "2.4.1"
+  ],
+  "anexos_detalle": {
+   "2.4.1": "numeral 1 modificado"
+  },
+  "notas": [
+   "Solo modifica el Anexo 2.4.1, que no se carga en data/; no cambia ninguna regla. Consultar el DOF."
+  ]
  }
 ]
