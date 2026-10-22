@@ -17,5 +17,41 @@
    "22",
    "29"
   ]
+ },
+ {
+  "ordenamiento": "RGCE",
+  "nombre": "Segunda Resolución de Modificaciones a las RGCE para 2026 y anexos 1, 2 y 22",
+  "dof": "22-09-2026",
+  "en_vigor": "23-09-2026",
+  "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5799243&fecha=22/09/2026",
+  "glosario": [
+   "fracción III, numeral 40"
+  ],
+  "reglas_afectadas": [
+   "1.4.12",
+   "1.4.14",
+   "3.1.2",
+   "3.7.20",
+   "4.5.15",
+   "4.5.33",
+   "4.6.11",
+   "7.1.4",
+   "7.1.5",
+   "7.2.1",
+   "Transitorio Décimo Primero"
+  ],
+  "anexos_afectados": [
+   "1",
+   "2",
+   "22"
+  ],
+  "anexos_detalle": {
+   "1": "Primera Modificación: Contenido (E15 adicionado; F1 y F3), apartado I, inciso a), numeral 3 derogado; formato E15 adicionado; formatos F1 y F3 reformados",
+   "2": "Primera Modificación: apartado I, inciso a), numeral 3 derogado; 37 fichas reformadas",
+   "22": "Segunda Modificación: apéndices 6 y 13 sustituidos; apéndice 8 (AO adicionado; EX y GA reformados); apéndice 9 (C1 de la SE reformado)"
+  },
+  "notas": [
+   "La modificación a la clave C1 del apéndice 9 del Anexo 22 entra en vigor en términos del Transitorio Único del Acuerdo SE publicado en el DOF el 28-05-2026 (Transitorio Segundo de la 2a RM)."
+  ]
  }
 ]

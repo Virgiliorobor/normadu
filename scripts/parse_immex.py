@@ -43,6 +43,39 @@ def parrafos(lineas):
     return "\n".join(out)
 
 
+# En el texto pdfminer del compilado SNICE, los "Se deroga." de los Anexos I BIS, I TER, III y IV
+# quedan al final de los Anexos I y II, y la nota "Anexo reformado DOF 01-01-2016" (que en el PDF
+# está bajo el Anexo III) queda en el Anexo II. Se corrige aquí con el orden del PDF (pdftotext
+# -layout). La derogación de los Anexos I BIS, I TER y III es del Decreto publicado en el DOF el
+# 06-01-2016, Artículo SEGUNDO (fuentes/immex_dof_20160106.doc); el compilado SNICE la anota como
+# "DOF 01-01-2016".
+DEROGA_2016 = ("Anexo derogado por el Decreto por el que se modifica el diverso para el Fomento de la Industria "
+               "Manufacturera, Maquiladora y de Servicios de Exportación, DOF 06-01-2016, Artículo SEGUNDO "
+               "(en vigor a los 30 días naturales siguientes a su publicación)")
+ANEXOS_DEROGADOS = {
+    "IMMEX-anexo-i-bis": [DEROGA_2016],
+    "IMMEX-anexo-i-ter": [DEROGA_2016],
+    "IMMEX-anexo-iii": [DEROGA_2016, "El compilado SNICE anota: Anexo reformado DOF 01-01-2016"],
+    "IMMEX-anexo-iv": ["El compilado SNICE no consigna el decreto que derogó este anexo"],
+}
+
+
+def corrige_anexos_derogados(articulos):
+    por_id = {a["id"]: a for a in articulos}
+    for id_ in ("IMMEX-anexo-i", "IMMEX-anexo-ii"):
+        a = por_id[id_]
+        assert a["texto"].endswith("\nSe deroga.\nSe deroga."), f"{id_}: 'Se deroga.' desplazados no encontrados"
+        a["texto"] = a["texto"][:-len("\nSe deroga.\nSe deroga.")]
+    ii = por_id["IMMEX-anexo-ii"]
+    assert "Anexo reformado DOF 01-01-2016" in ii["notas_reforma"]
+    ii["notas_reforma"].remove("Anexo reformado DOF 01-01-2016")
+    for id_, notas in ANEXOS_DEROGADOS.items():
+        a = por_id[id_]
+        assert a["texto"].strip() == a["numero"], f"{id_}: se esperaba vacío"
+        a["texto"] = a["numero"] + " Se deroga."
+        a["notas_reforma"] = notas
+
+
 def main():
     lines = (FUENTES / "decreto_immex.txt").read_text(encoding="utf-8").splitlines()
 
@@ -132,6 +165,7 @@ def main():
                 actual["_lineas"].append(raw)
 
     cierra()
+    corrige_anexos_derogados(articulos)
 
     out = {
         "id": "IMMEX",
