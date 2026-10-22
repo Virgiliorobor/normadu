@@ -14,10 +14,10 @@ Directorio consultable de las disposiciones legales aplicables al comercio exter
 | — | RGCE Anexo 22 (instructivo del pedimento + 22 apéndices) | DOF 15-01-2026 | 1a Modificación (DOF 20-05-2026, clave AL) y 2a Modificación (DOF 22-09-2026: ap. 6, 8, 9, 13) aplicadas |
 | — | RGCE Anexo 24 (control de inventarios IMMEX) | DOF 15-01-2026 | vigente |
 | — | RGCE Anexo 30 (SCCCyG — control de créditos y garantías IVA/IEPS) | DOF 15-01-2026 | vigente |
-| RCSE | Reglas y Criterios de Comercio Exterior SE (198 reglas) | Compilado SNICE | al 02-04-2026 (13 publicaciones DOF) |
+| RCSE | Reglas y Criterios de Comercio Exterior SE (199 reglas) | Compilado SNICE al 02-04-2026 + Acuerdos DOF | Acuerdos SE DOF 28-05-2026 (2.2.4, 2.2.19 BIS; vigor condicionado), 29-05-2026 (1.2.1, 2.4.3, 2.4.6, 2.4.11) y 28-09-2026 (solo Anexo 2.4.1) aplicados |
 | IMMEX | Decreto IMMEX completo (34 artículos + 6 Bis, transitorios y anexos I–IV) | Compilado SNICE | al 28-08-2025 (Anexos I BIS, I TER y III derogados, DOF 06-01-2016) |
 
-Pendiente de publicación en el DOF: 3a RM RGCE 2026 (solo versión anticipada en el Portal del SAT, 30-09-2026; registrada en `fuentes\`, no aplicada).
+Pendiente de publicación en el DOF (revisado el 22-10-2026): 3a RM RGCE 2026 (solo versión anticipada en el Portal del SAT, 30-09-2026; registrada en `fuentes\`, no aplicada). LA, RLA e IMMEX no tienen reformas en el DOF posteriores a su fecha de corte (revisión día por día en SIDOF y portada de LeyesBiblio, 22-10-2026).
 
 Los anexos del Acuerdo SE (tablas de fracciones arancelarias: 2.2.1, 2.4.1, etc.) no se cargan en el visor; se consultan en el PDF compilado de SNICE.
 
@@ -42,26 +42,45 @@ python scripts/parse_rgce.py
 python scripts/parse_anexos.py
 python scripts/aplicar_modificaciones.py   # 1a RM y 2a RM, con historial
 
-# Reglas SE e IMMEX (PDF compilados, texto extraído con pdfminer.six)
+# Reglas SE e IMMEX (PDF compilados, texto extraído con pdfminer.six); Acuerdos SE posteriores al compilado
 python scripts/parse_se.py
+python scripts/aplicar_modificaciones_se.py   # Acuerdos SE DOF 28-05, 29-05 y 28-09-2026, con historial
 python scripts/parse_immex.py
 
 # Referencias cruzadas y visor
 python scripts/extraer_referencias.py
 python scripts/generar_indice.py
 python scripts/build_html.py
+python scripts/verificar.py      # compara con HEAD: ninguna entrada perdida, todo texto cambiado con historial
 ```
+
+Todo lo anterior en un paso, en el orden obligatorio y con la verificación al final: `python scripts/actualizar.py`.
+
+## Vigilancia (qué se publicó y qué falta aplicar)
+
+```powershell
+python scripts/vigilar_dof.py     # escribe vigilancia\ultimo_reporte.md; código 2 = hay algo por revisar
+```
+
+Revisa el DOF día por día (API pública de SIDOF) desde la `ultima_reforma` de cada ordenamiento de `data\index.json`,
+los documentos del minisitio RGCE del SAT (versiones anticipadas y compilados nuevos desde la corrida anterior) y la
+portada de los PDF de LeyesBiblio (LA y RLA). Lo ya revisado se anota en `vigilancia\atendidas.json` (codNota → estado)
+y deja de salir como pendiente. También lista los archivos que OneDrive dejó solo en línea. Sin llaves ni servicios de pago.
+Para programarla: `scripts\programar_vigilancia.ps1` (lunes y jueves, Programador de tareas de Windows; no se registra sola).
 
 ## Cómo actualizar cuando se publique una modificación
 
 1. **RGCE (SAT)** — fuente de verdad: https://www.sat.gob.mx/minisitio/NormatividadRMFyRGCE/index.html
    Descargar la resolución del DOF (`nota_to_doc.php?codnota=XXXX`), codificar los parches en
    `scripts/aplicar_modificaciones.py` (con anclas de texto y `historial`), y re-correr el pipeline RGCE.
-2. **Reglas SE** — SNICE publica el compilado actualizado (biblioteca jurídica); reemplazar
-   `fuentes/reglas_se_compilado.pdf`, extraer texto y re-correr `parse_se.py`.
+2. **Reglas SE** — mientras SNICE no publique compilado nuevo: descargar el Acuerdo del DOF
+   (`https://sidof.segob.gob.mx/notas/getDoc/<codNota>`, convertir con Word a texto), guardarlo como
+   `fuentes/reglas_se_mod_dof_AAAAMMDD.doc/.txt` y codificar sus cambios en `scripts/aplicar_modificaciones_se.py`
+   (anclas + `historial`). Cuando SNICE publique un compilado que ya incluya esos Acuerdos, reemplazar
+   `fuentes/reglas_se_compilado.pdf`, re-correr `parse_se.py`, cotejar y quitar del script los Acuerdos ya incluidos.
 3. **IMMEX / Ley / Reglamento** — igual: reemplazar la fuente compilada y re-parsear.
-4. Siempre terminar con `extraer_referencias.py` + `build_html.py` y commit (el historial de git
-   es el registro de versiones del sistema).
+4. Siempre terminar con `python scripts/actualizar.py` (pipeline + `verificar.py`) y commit cuando el owner lo pida
+   (el historial de git es el registro de versiones del sistema). Anotar la nota del DOF en `vigilancia\atendidas.json`.
 
 Cada regla, ficha, formato o apéndice modificado conserva su texto anterior en `historial` (visible en el visor como
 "Texto anterior") y cada resolución queda asentada en `data/modificaciones.json`. El Glosario y los Transitorios
